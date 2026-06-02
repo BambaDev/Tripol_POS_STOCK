@@ -172,7 +172,7 @@ namespace Pos.Forms.LoyaltyForms
         private void BtnExportXLSX_Click(object sender, EventArgs e)
         {
             // Export sécurisé avec permission + audit
-            int userId = int.Parse(Properties.Settings.Default.userId);
+            int userId = Properties.Settings.Default.userId;
             ExportManager.SecureExportToExcel(
                 grvMain,
                 "LoyaltyCards",
@@ -185,7 +185,7 @@ namespace Pos.Forms.LoyaltyForms
         private void BtnExportCSV_Click(object sender, EventArgs e)
         {
             // Export sécurisé avec CSV injection protection
-            int userId = int.Parse(Properties.Settings.Default.userId);
+            int userId = Properties.Settings.Default.userId;
             ExportManager.SecureExportToCSV(
                 grvMain,
                 "LoyaltyCards",
@@ -198,7 +198,7 @@ namespace Pos.Forms.LoyaltyForms
         private void BtnExportPDF_Click(object sender, EventArgs e)
         {
             // Export sécurisé avec permission + audit
-            int userId = int.Parse(Properties.Settings.Default.userId);
+            int userId = Properties.Settings.Default.userId;
             ExportManager.SecureExportToPDF(
                 grvMain,
                 "LoyaltyCards",

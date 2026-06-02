@@ -33,7 +33,9 @@
       "Bash(git commit -m 'chore: update Claude Code permissions *)",
       "Bash(git push *)",
       "Bash(git stash *)",
-      "Bash(git commit -m 'security: remove test API keys from codebase *)"
+      "Bash(git commit -m 'security: remove test API keys from codebase *)",
+      "Bash(git rm *)",
+      "Bash(git commit --amend -m ' *)"
     ]
   }
 }

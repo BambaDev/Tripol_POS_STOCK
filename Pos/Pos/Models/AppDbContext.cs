@@ -1,5 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Threading;
+using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 
 namespace Pos.Models;
@@ -1013,4 +1016,84 @@ public partial class AppDbContext : DbContext
     }
 
     partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
+
+    /// <summary>
+    /// Override SaveChanges to add validation at database level
+    /// Provides defense in depth - validates even if Forms validation is bypassed
+    /// </summary>
+    public override int SaveChanges()
+    {
+        ValidateEntitiesBeforeSave();
+        return base.SaveChanges();
+    }
+
+    /// <summary>
+    /// Override SaveChangesAsync to add validation at database level
+    /// </summary>
+    public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
+    {
+        ValidateEntitiesBeforeSave();
+        return await base.SaveChangesAsync(cancellationToken);
+    }
+
+    /// <summary>
+    /// Validates all tracked entities before saving to database
+    /// Throws InvalidOperationException if validation fails
+    /// </summary>
+    private void ValidateEntitiesBeforeSave()
+    {
+        var entries = ChangeTracker.Entries()
+            .Where(e => e.State == EntityState.Added || e.State == EntityState.Modified);
+
+        foreach (var entry in entries)
+        {
+            // Validate Sale entities
+            if (entry.Entity is Sale sale)
+            {
+                var validation = Function.SaleValidator.ValidateSale(sale);
+                if (!validation.isValid)
+                {
+                    throw new InvalidOperationException(
+                        $"Sale validation failed: {validation.errorMessage}");
+                }
+            }
+
+            // Validate Return entities
+            if (entry.Entity is Return returnEntity)
+            {
+                var validation = Function.ReturnValidator.ValidateReturn(
+                    returnEntity.SaleId ?? 0,
+                    returnEntity.GrandTotal ?? 0,
+                    this);
+
+                if (!validation.isValid)
+                {
+                    throw new InvalidOperationException(
+                        $"Return validation failed: {validation.errorMessage}");
+                }
+            }
+
+            // Validate Customer email format
+            if (entry.Entity is Customer customer && !string.IsNullOrWhiteSpace(customer.Email))
+            {
+                var emailValidation = Function.InputSanitizer.ValidateEmail(customer.Email);
+                if (!emailValidation.isValid)
+                {
+                    throw new InvalidOperationException(
+                        $"Customer email validation failed: {emailValidation.errorMessage}");
+                }
+            }
+
+            // Validate Employee email format
+            if (entry.Entity is Employee employee && !string.IsNullOrWhiteSpace(employee.Email))
+            {
+                var emailValidation = Function.InputSanitizer.ValidateEmail(employee.Email);
+                if (!emailValidation.isValid)
+                {
+                    throw new InvalidOperationException(
+                        $"Employee email validation failed: {emailValidation.errorMessage}");
+                }
+            }
+        }
+    }
 }
