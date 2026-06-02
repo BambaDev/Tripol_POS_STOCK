@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 48 48" width="240" height="240">
+  <linearGradient id="SVGID_1_" x1="24.652" x2="39.487" y1="9.429" y2="24.264" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#fede00" />
+    <stop offset="1" stop-color="#ffd000" />
+  </linearGradient>
+  <rect width="24" height="6.1" x="20" y="13.7" fill="url(#SVGID_1_)" />
+  <linearGradient id="SVGID_00000070085055411728306460000004079206306510437040_" x1="31.424" x2="33.314" y1="21.784" y2="8.992" gradientTransform="matrix(1 0 0 -1 0 50)" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#fede00" />
+    <stop offset="1" stop-color="#ffd000" />
+  </linearGradient>
+  <path fill="url(#SVGID_00000070085055411728306460000004079206306510437040_)" d="M44,30H20c0,0.7,0,3.3,0,4c0,3.3,5.4,6,12,6s12-2.7,12-6C44,33.3,44,30.7,44,30z" />
+  <linearGradient id="SVGID_00000075157567032346500900000003366049664784584633_" x1="31.424" x2="33.314" y1="29.784" y2="16.992" gradientTransform="matrix(1 0 0 -1 0 50)" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#fede00" />
+    <stop offset="1" stop-color="#ffd000" />
+  </linearGradient>
+  <path fill="url(#SVGID_00000075157567032346500900000003366049664784584633_)" d="M44,22H20c0,0.7,0,3.3,0,4c0,3.3,5.4,6,12,6s12-2.7,12-6C44,25.3,44,22.7,44,22z" />
+  <linearGradient id="SVGID_00000067237185489858963900000009483390501897099967_" x1="31.424" x2="33.314" y1="25.784" y2="12.992" gradientTransform="matrix(1 0 0 -1 0 50)" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#e5a505" />
+    <stop offset=".116" stop-color="#eaa804" />
+    <stop offset=".595" stop-color="#f8b301" />
+    <stop offset="1" stop-color="#fdb700" />
+  </linearGradient>
+  <path fill="url(#SVGID_00000067237185489858963900000009483390501897099967_)" d="M44,26H20c0,0.7,0,3.3,0,4 c0,3.3,5.4,6,12,6s12-2.7,12-6C44,29.3,44,26.7,44,26z" />
+  <linearGradient id="SVGID_00000138549184417549385920000003870334435562637227_" x1="25.47" x2="38.695" y1="30.584" y2="17.359" gradientTransform="matrix(1 0 0 -1 0 50)" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#fede00" />
+    <stop offset="1" stop-color="#ffd000" />
+  </linearGradient>
+  <ellipse cx="32" cy="26" fill="url(#SVGID_00000138549184417549385920000003870334435562637227_)" rx="12" ry="6" />
+  <linearGradient id="SVGID_00000082346631548357209990000015952441586498219442_" x1="31.424" x2="33.314" y1="33.784" y2="20.992" gradientTransform="matrix(1 0 0 -1 0 50)" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#e5a505" />
+    <stop offset=".116" stop-color="#eaa804" />
+    <stop offset=".595" stop-color="#f8b301" />
+    <stop offset="1" stop-color="#fdb700" />
+  </linearGradient>
+  <path fill="url(#SVGID_00000082346631548357209990000015952441586498219442_)" d="M44,18H20c0,0.7,0,3.3,0,4 c0,3.3,5.4,6,12,6s12-2.7,12-6C44,21.3,44,18.7,44,18z" />
+  <linearGradient id="SVGID_00000071548778508936428290000018381638255413719970_" x1="25.47" x2="38.695" y1="38.498" y2="25.273" gradientTransform="matrix(1 0 0 -1 0 50)" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#fede00" />
+    <stop offset="1" stop-color="#ffd000" />
+  </linearGradient>
+  <ellipse cx="32" cy="18" fill="url(#SVGID_00000071548778508936428290000018381638255413719970_)" rx="12" ry="6" />
+  <linearGradient id="SVGID_00000047054045374184362580000014175140696428069522_" x1="31.424" x2="33.314" y1="41.784" y2="28.992" gradientTransform="matrix(1 0 0 -1 0 50)" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#e5a505" />
+    <stop offset=".116" stop-color="#eaa804" />
+    <stop offset=".595" stop-color="#f8b301" />
+    <stop offset="1" stop-color="#fdb700" />
+  </linearGradient>
+  <path fill="url(#SVGID_00000047054045374184362580000014175140696428069522_)" d="M44,10H20c0,0.7,0,3.3,0,4 c0,3.3,5.4,6,12,6s12-2.7,12-6C44,13.3,44,10.7,44,10z" />
+  <linearGradient id="SVGID_00000100356946232637507750000011774082618859266985_" x1="25.459" x2="38.684" y1="46.541" y2="33.316" gradientTransform="matrix(1 0 0 -1 0 50)" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#fede00" />
+    <stop offset="1" stop-color="#ffd000" />
+  </linearGradient>
+  <ellipse cx="32" cy="10" fill="url(#SVGID_00000100356946232637507750000011774082618859266985_)" rx="12" ry="6" />
+  <ellipse cx="32" cy="10" fill="#ffc800" rx="9" ry="4" />
+  <linearGradient id="SVGID_00000116234869641214454860000006634048922439705003_" x1="8.665" x2="23.5" y1="25.343" y2="40.179" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#fede00" />
+    <stop offset="1" stop-color="#ffd000" />
+  </linearGradient>
+  <rect width="24" height="6.1" x="4" y="29.6" fill="url(#SVGID_00000116234869641214454860000006634048922439705003_)" />
+  <g>
+    <linearGradient id="SVGID_00000165217355121538396760000017704017527031711409_" x1="15.424" x2="17.314" y1="17.784" y2="4.992" gradientTransform="matrix(1 0 0 -1 0 50)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e5a505" />
+      <stop offset=".116" stop-color="#eaa804" />
+      <stop offset=".595" stop-color="#f8b301" />
+      <stop offset="1" stop-color="#fdb700" />
+    </linearGradient>
+    <path fill="url(#SVGID_00000165217355121538396760000017704017527031711409_)" d="M28,34H4c0,0.7,0,3.3,0,4 c0,3.3,5.4,6,12,6s12-2.7,12-6C28,37.3,28,34.7,28,34z" />
+    <linearGradient id="SVGID_00000145745195307896003490000009560471175866359203_" x1="9.475" x2="22.688" y1="22.577" y2="9.365" gradientTransform="matrix(1 0 0 -1 0 50)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fede00" />
+      <stop offset="1" stop-color="#ffd000" />
+    </linearGradient>
+    <ellipse cx="16" cy="34" fill="url(#SVGID_00000145745195307896003490000009560471175866359203_)" rx="12" ry="6" />
+  </g>
+  <linearGradient id="SVGID_00000001644959392363781040000007050874151557391775_" x1="15.424" x2="17.314" y1="25.784" y2="12.992" gradientTransform="matrix(1 0 0 -1 0 50)" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#e5a505" />
+    <stop offset=".116" stop-color="#eaa804" />
+    <stop offset=".595" stop-color="#f8b301" />
+    <stop offset="1" stop-color="#fdb700" />
+  </linearGradient>
+  <path fill="url(#SVGID_00000001644959392363781040000007050874151557391775_)" d="M28,26H4c0,0.7,0,3.3,0,4c0,3.3,5.4,6,12,6s12-2.7,12-6C28,29.3,28,26.7,28,26z" />
+  <linearGradient id="SVGID_00000116935072473450672120000005931564505935353220_" x1="9.459" x2="22.684" y1="30.541" y2="17.316" gradientTransform="matrix(1 0 0 -1 0 50)" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#fede00" />
+    <stop offset="1" stop-color="#ffd000" />
+  </linearGradient>
+  <ellipse cx="16" cy="26" fill="url(#SVGID_00000116935072473450672120000005931564505935353220_)" rx="12" ry="6" />
+  <ellipse cx="16" cy="26" fill="#ffc800" rx="9" ry="4" />
+</svg>

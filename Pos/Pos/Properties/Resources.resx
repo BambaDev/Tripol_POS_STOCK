@@ -1,0 +1,1702 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="query" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\query.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Initiate Money Transfer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Initiate Money Transfer.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="cash-counter-white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cash-counter-white.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="exam" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\exam.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="in_inventory" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\in_inventory.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="intelligence" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\intelligence.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Scream_Real" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Scream Real.otf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="add_receipt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\add_receipt.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="white-waste" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\white-waste.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="add-plus2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\add-plus2.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="multiple-devices-white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\multiple-devices-white.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="device_shop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\device_shop.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="variation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\variation.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="_50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rating" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rating.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="do_not_stack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\do_not_stack.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="ssd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssd.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="statistics" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\statistics.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="broadcasting" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\broadcasting.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="alertWarningIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\alertWarningIcon.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="device_manager" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\device_manager.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="dollar_bitcoin_exchange" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dollar_bitcoin_exchange.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="pos_cash_register1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pos_cash_register1.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="warehouse_21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\warehouse_21.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="cash_register_white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cash_register_white.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="pos_cash_register" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pos_cash_register.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="tab_paid" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tab_paid.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="quick_mode_on1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\quick_mode_on1.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="technical-support1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\technical-support1.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="repair_computer_support" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\repair_computer_support.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="transaction_approved" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\transaction_approved.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="today_attendance" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\today_attendance.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="city1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\city1.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="tick_box" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tick_box.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="invoice_white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\invoice_white.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="view_details" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\view_details.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="_2000" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2000.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="alarm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\alarm.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="rightclick_print_list" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rightclick_print_list.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="receipt_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\receipt_2.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="whitemore" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\whitemore.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="address" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\address.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="shipping_container" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shipping_container.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="delivered_box" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delivered_box.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ad_users" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ad-users.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Backlog" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Backlog.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="barcode_scanner1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\barcode_scanner1.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="login" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\login.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="overview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\overview.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="fingerprint" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fingerprint.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="cancel2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cancel2.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="shop_location" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shop_location.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="nextS2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nextS2.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="categorize" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\categorize.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="edit-white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\edit-white.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="key" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="End" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\End.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="white-adjustment" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\white-adjustment.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="white-statistics" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\white-statistics.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="DIGITAL_7__MONO_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DIGITAL-7 (MONO).TTF;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cloud_backup_restore" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cloud_backup_restore.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="country" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\country.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="taxs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\taxs.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="white-inventory" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\white-inventory.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="printWhite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\printWhite.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="shop-location1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shop-location1.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="paid" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\paid.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="receipt_approved" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\receipt_approved.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="delete-white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delete-white.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="BackBlueDuo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BackBlueDuo.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="apply" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\apply.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Choice" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Choice.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="create-order" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\create-order.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="technical-support" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\technical-support.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="original-5ef408b1e898de57b9529e5c21d6bf6b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\original-5ef408b1e898de57b9529e5c21d6bf6b.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="add_to_favorites" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\add_to_favorites.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="add-white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\add-white.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="menu_users" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu_users.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="computer-support-white1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\computer-support-white1.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="employees_white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\employees_white.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="computer_support1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\computer_support1.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="unit-white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\unit-white.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="paper_plane" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\paper_plane.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="bank-white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bank-white.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="loader" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\loader.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="white-product" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\white-product.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="menu_squared1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu_squared1.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="notification" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\notification.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="product" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\product.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="filter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\filter.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="technical_support" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\technical_support.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="schedule" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\schedule.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="savefluent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\savefluent.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="purchase_code" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\purchase_code.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="business-group-white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\business-group-white.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="expired1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\expired.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="workers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\workers.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="whatsapp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\whatsapp.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="currencies" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\currencies.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="clipboard_list_white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clipboard_list_white.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="sale_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sale_2.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="today" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\today.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="alertErrorGif" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\alertErrorGif.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="refresh-white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\refresh-white.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="settings" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\settings.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="stack_of_coins" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stack_of_coins.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Thumbnails" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumbnails.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="progress" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\progress.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="plus-white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\plus-white.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="refresh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\refresh.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="work_authorisation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\work_authorisation.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="new_jobs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\new_jobs.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="complaint" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\complaint.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="master-white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\master-white.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Tools" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tools.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="barcode_scanner" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\barcode_scanner.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="refund" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\refund.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="export_csv" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\export_csv.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CheckDuo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CheckDuo.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="send" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\send.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="online-protection-flatline" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\online-protection-flatline.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Check Mark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Check Mark.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Membership Card" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Membership Card.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="tag-colored" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tag-colored.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="previous" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\previous.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Uni_Sans_Heavy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Uni Sans Heavy.otf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="computer-46" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\computer-46.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="loyalty_card" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\loyalty_card.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="DIGITAL_7__ITALIC_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DIGITAL-7 (ITALIC).TTF;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="people" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\people.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="_20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="In Progress" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\In Progress.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="sheet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sheet.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="VIPSAMIRv2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\VIPSAMIRv2.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="today_white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\today_white.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="full_tool_storage_box" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\full_tool_storage_box.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="cate_tag" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cate_tag.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="expired" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\expired.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="money_bag" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\money_bag.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="lock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lock.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="money_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\money-12.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="budget" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\budget.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Start" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Start.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="payment-credit-card" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\payment-credit-card.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="CancelDuo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CancelDuo.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="LeandingPage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LeandingPage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="white_building" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\white_building.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ad_roles" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ad-roles.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="supplier" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\supplier.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="quick_mode_on" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\quick_mode_on.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="badge_employee" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\badge_employee.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="edit-property" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\edit-property.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="computer_support" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\computer_support.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="department_white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\department_white.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="waste" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\waste.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="development_skill" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\development_skill.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="online-store-10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\online-store-10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="quic_auth" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\quic_auth.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="supplier_man" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\supplier_man.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="accounts" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\accounts.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="unavailable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\unavailable.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="white_new_job" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\white_new_job.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="av_account" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\av-account.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="administrative-tools" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\administrative-tools.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="remove" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\remove.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tab_return_sales" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tab_return_sales.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="brand-new-white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\brand-new-white.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="multiply" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\multiply.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="add-basket" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\add-basket.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="buy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buy.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="double_tick" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\double_tick.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="white-expense" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\white-expense.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Uni_Sans_Thin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Uni Sans Thin.otf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dashboard_layout" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dashboard_layout.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="medal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\medal.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="resetWhite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\resetWhite.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="notes_62" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\notes-62.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rightclick_case_study" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rightclick_case_study.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Close Window" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Close Window.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="brand" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\brand.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="discount-white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\discount-white.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="white-stock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\white-stock.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Circle Chart" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Circle Chart.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="undo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\undo.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="user_folder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user_folder.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="alarm1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\alarm1.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="diversity-white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\diversity-white.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="order-confirmation-two-color" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\order-confirmation-two-color.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="new_multiple_devices" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\new_multiple_devices.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="product-white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\product-white.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="request_service" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\request_service.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="not_showing_video_frames" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\not_showing_video_frames.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="white_dashboard_layout" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\white_dashboard_layout.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="delete-white1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delete-white1.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="country1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\country1.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="user_work_authorisation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user_work_authorisation.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="close_white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\close_white.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tag-colored1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tag-colored1.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="rightclick_money_bag" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rightclick_money_bag.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="print" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\print.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="suppliers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\suppliers.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="new_job_white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\new_job_white.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="checked_checkbox_white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\checked_checkbox_white.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="create_orders" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\create_orders.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="DIGITAL_7__MONO_ITALIC_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DIGITAL-7 (MONO ITALIC).TTF;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="export_excel1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\export_excel1.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="skip_to_start" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\skip_to_start.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="tab_pause_squared" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tab_pause_squared.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="weekend" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weekend.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="route" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="tab_customers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tab_customers.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="currency_exchange" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\currency_exchange.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Choice1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Choice1.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="database" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\database.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="white-transfer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\white-transfer.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="spinner200px200px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spinner200px200px.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="access-denied-white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\access-denied-white.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="engineer-white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\engineer-white.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="white-report" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\white-report.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="menu_users1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu_users1.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="hourglass" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hourglass.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="LEMONMILK_Medium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LEMONMILK-Medium.otf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="new_ticket" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\new_ticket.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="white-unit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\white-unit.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="person_female_white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\person_female_white.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="case_study" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\case_study.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="white-discount" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\white-discount.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="lock-white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lock-white.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="rightclick_archive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rightclick_archive.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="repair_discount" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\repair_discount.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="supp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\supp.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="audit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\audit.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="deployment" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\deployment.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="online-store-101" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\online-store-101.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pemissions" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pemissions.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="sell_stock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sell_stock.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="tag" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tag.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Help1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Help1.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="search" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\search.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="history-white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\history-white.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="purchase-order" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\purchase-order.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="joyent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\joyent.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="add-user-group" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\add-user-group.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="computer-support" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\computer-support.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="city" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\city.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="report" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\report.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="siren" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\siren.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="badge_white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\badge_white.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="add-plus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\add-plus.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="bs-location" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bs-location.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Test1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Test1.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="shipped" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shipped.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="computer_support_white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\computer_support_white.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="computer_supports" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\computer_supports.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Location-white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Location-white.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="enter_auth" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enter_auth.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="print_white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\print_white.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Shopee" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Shopee.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="customers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\customers.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="computer-support-white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\computer-support-white.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="shop_locations" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shop_locations.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="openWhiteSign" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\openWhiteSign.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="rightclick_delete_judgment" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rightclick_delete_judgment.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="guarantee" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\guarantee.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="payment-credit-card1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\payment-credit-card1.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="printer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\printer.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="guarantee-colored" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\guarantee-colored.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="variation-colored" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\variation-colored.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="rightclick_print" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rightclick_print.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="star_filled" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\star_filled.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="google-alerts-white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\google-alerts-white.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Location_white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Location_white.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="terms_and_conditions" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\terms_and_conditions.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="white_critical_thinking" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\white_critical_thinking.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="password-monochromatic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\password-monochromatic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="website" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\website.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="multiple-devices-white1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\multiple-devices-white1.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="dashboard_layout_white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dashboard_layout_white.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="data_transfer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\data_transfer.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="rescheduling_a_task" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rescheduling_a_task.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="expirationDate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\expirationDate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="add_basket_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\add_basket_2.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Add Male User Group" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Add Male User Group.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="white-sale" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\white-sale.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="container_truck" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\container_truck.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="brief-white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\brief-white.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="box_package" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\box-package.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="trash_can" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\trash_can.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="export_pdf1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\export_pdf1.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="adjustment" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\adjustment.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="staff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\staff.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="roles" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\roles.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="money_jar_34" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\money-jar-34.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="approval_white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\approval_white.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="export_excel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\export_excel.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Add Male User Group1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Add Male User Group1.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="tab_shopping" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tab_shopping.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="multiple-devices" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\multiple-devices.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="price-group" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\price-group.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="staff-white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\staff-white.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="white-price-group" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\white-price-group.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="noperm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\noperm.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="white-guarantee" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\white-guarantee.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="multiple_devices" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\multiple_devices.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="tax_white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tax_white.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="repair-checklists-white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\repair-checklists-white.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="warehouse-white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\warehouse-white.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="product_loading" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\product_loading.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="delivery" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delivery.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="login-lock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\login-lock.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="wait" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wait.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="business_report" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\business_report.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="job" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\job.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="combi_ticket" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\combi_ticket.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="staffs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\staffs.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="white-brand" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\white-brand.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="LeftUndo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LeftUndo.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="stop_squared_white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stop_squared_white.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="pause_button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pause_button.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="task_white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\task_white.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="_500" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\500.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="preview_pane" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\preview_pane.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="tools-white1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tools-white1.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="approval" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\approval.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="conference_foreground_selected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\conference_foreground_selected.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="remove-user-group" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\remove-user-group.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="warehouse" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\warehouse.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="_1000" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1000.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="binder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\binder.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="repair_note" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\repair_note.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="open-box" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\open-box.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="online-payment-monochromatic-c805e" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\online-payment-monochromatic-c805e.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rightclick_drag_the_file" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rightclick_drag_the_file.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sorting Arrows Horizontal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sorting Arrows Horizontal.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="management-white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\management-white.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="adjustment1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\adjustment1.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="page_setup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page_setup.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="mechanic_skin_type_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mechanic_skin_type_3.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="sign-document" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sign-document.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Prev" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Prev.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="password" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\password.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="inspection" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\inspection.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="LEMONMILK_Regular" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LEMONMILK-Regular.otf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="payroll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\payroll.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="transfers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\transfers.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="ad_add_customer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ad-add-customer.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="new-year-calendar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\new-year-calendar.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="role-white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\role-white.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="sun_lounger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sun_lounger.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cheque" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cheque.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="unit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\unit.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="cash-counter-colored" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cash-counter-colored.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="transaction" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\transaction.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="devices_maintenance" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\devices_maintenance.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="purchase_orders" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\purchase_orders.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="tax" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tax.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="money_1_14_e427a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\money-1-14-e427a.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="white_logout_rounded" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\white_logout_rounded.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DIGITAL_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DIGITAL-7.TTF;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tab_cash_counter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tab_cash_counter.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="hangar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hangar.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="client_management" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\client_management.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="website1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\website1.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="delete-trash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delete-trash.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="labels" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\labels.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="file_invoice_white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\file_invoice_white.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="send_message" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\send_message.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="ad_custommers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ad-custommers.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="return_purchase" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\return_purchase.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Estimate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Estimate.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="email_sign" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\email_sign.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="close_sign" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\close_sign.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="checked_user_male" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\checked_user_male.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="rightclick_preview_pane" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rightclick_preview_pane.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="warehouse_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\warehouse_2.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="department" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\department.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="cash_white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cash-white.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="order_histories" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\order_histories.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="country2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\country2.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="expensive_price" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\expensive_price.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="no_entry" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\no_entry.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="box_important" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\box_important.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="debt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\debt.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="onlyoffice" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\onlyoffice.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Al_Jazeera_Arabic_Regular" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Al-Jazeera-Arabic-Regular.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="receipt_and_change" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\receipt_and_change.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="export_pdf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\export_pdf.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="online-payment-isometric-4f635" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\online-payment-isometric-4f635.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="new_job" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\new_job.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="business_building" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\business_building.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rightclick_no_baggage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rightclick_no_baggage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="warranty-white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\warranty-white.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="creativity" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\creativity.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="discount" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\discount.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="alertErrorIcon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\alertErrorIcon.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="spinner200px200pxSaved" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spinner200px200pxSaved.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wastes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wastes.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="inventory_flow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\inventory_flow.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="pin_auth" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pin_auth.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="purchase-order1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\purchase-order1.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="purchase_order" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\purchase_order.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="tools-white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tools-white.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="writer_male" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\writer_male.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="filter1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\filter1.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="categories" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\categories.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="flipboard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\flipboard.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="successful_delivery" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\successful_delivery.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="model-white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\model-white.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="file_preview_white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\file_preview_white.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ad_account" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ad-account.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Database_Restore" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Database Restore.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="white-purchase" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\white-purchase.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="calendar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\calendar.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="cash-register" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cash-register.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="multiples_devices" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\multiples_devices.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="export_csv1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\export_csv1.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="saveWhite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\saveWhite.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="products" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\products.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="rightclick_undo_archiving" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rightclick_undo_archiving.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bill" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bill.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="add_user_group_woman_man" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\add_user_group_woman_man.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="previousS2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\previousS2.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="expense" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\expense.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Microsoft_Word" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Microsoft Word.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="data_backup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\data_backup.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="gift" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gift.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="tab_cash_counter1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tab_cash_counter1.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="prize" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prize.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Sync" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sync.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="loginWhite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\loginWhite.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="static_view_level1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\static_view_level1.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="female_white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\female_white.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="whatsapp1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\whatsapp1.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="original-e73b2b320a829b18d9edcdcd609d85fd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\original-e73b2b320a829b18d9edcdcd609d85fd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="computer-support-colored" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\computer-support-colored.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="bills" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bills.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="add_to_collection" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\add_to_collection.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="logitech_options" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logitech_options.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="male_white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\male_white.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="in_progress" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\in_progress.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="WorkSans_Regular" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WorkSans-Regular.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="delete-case-white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delete-case-white.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="report_file" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\report_file.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="device-manager-white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\device-manager-white.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="briefcase-settings" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\briefcase-settings.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="shop-location2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shop-location2.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="technical-support-white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\technical-support-white.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="menu_squared" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu_squared.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="currency-white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\currency-white.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Price Tag USD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Price Tag USD.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="briefcase_setting" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\briefcase_setting.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="display" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\display.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="add_to_shopping_basket" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\add_to_shopping_basket.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="alertInfoIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\alertInfoIcon.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="technicals_supports" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\technicals_supports.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="white-input" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\white-input.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="synchronize-folder-white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\synchronize-folder-white.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="credit_note" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\credit_note.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="receipt_and_change1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\receipt_and_change1.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="rightclick_remove" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rightclick_remove.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CLoseDuo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CLoseDuo.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="add-plus1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\add-plus1.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="authentication" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\authentication.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="dollar-euro-exchange" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dollar-euro-exchange.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="cash-counter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cash-counter.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="onlinestore" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\onlinestore.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="close_window" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\close_window.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="money_transfer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\money_transfer.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="store-closed-55" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\store-closed-55.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="region1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\region1.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="checked_checkbox" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\checked_checkbox.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="shop-location" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shop-location.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="order-history" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\order-history.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="test" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\test.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="close-sign-white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\close-sign-white.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="add_trash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\add_trash.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Next" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Next.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="autobahn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\autobahn.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="compare_white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\compare_white.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="ad_permission" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ad-permission.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="customer-white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\customer-white.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Location_white2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Location_white2.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="male_white1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\male_white1.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="data_protection" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\data_protection.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rightclick_mail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rightclick_mail.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="time_card_white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\time_card_white.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="invoice-white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\invoice-white.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="briefcase_settings" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\briefcase_settings.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="create" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\create.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="ssd-white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssd-white.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="units-colored" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\units-colored.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="customers_white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\customers_white.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="refresh-folder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\refresh-folder.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="invoice_white2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\invoice_white2.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="out_of_stock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\out_of_stock.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="online-payment-flatline-3a65d" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\online-payment-flatline-3a65d.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="calendar_15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\calendar_15.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="database1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\database1.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="settings-white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\settings-white.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="add_list" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\add_list.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="CloseSolid" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CloseSolid.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="skyscrapers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\skyscrapers.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="white-categorize" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\white-categorize.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Protect" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Protect.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="admin-settings" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\admin-settings.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="_200" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="alertErrorIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\alertErrorIcon.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rightclick_suitcase" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rightclick_suitcase.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="region" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\region.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Blockletter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blockletter.otf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_5001" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\500.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="users" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\users.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="shopping_cart_promotion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shopping_cart_promotion.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="rightclick_rescheduling_a_task" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rightclick_rescheduling_a_task.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="place_marker" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\place_marker.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="infos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\infos.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="maintenance" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\maintenance.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="dashboard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dashboard.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="rightclick_no_baggage1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rightclick_no_baggage.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="help" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\help.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pause_squared" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pause_squared.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="AddDuo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AddDuo.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.2, Version=23.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+</root>

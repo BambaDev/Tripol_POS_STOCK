@@ -1,0 +1,2300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema 
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="gridControlTodaySummary.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 161</value>
+  </data>
+  <data name="gridViewTodaySummary.Appearance.FocusedRow.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9.75pt, style=Bold</value>
+  </data>
+  <data name="gridViewTodaySummary.Appearance.GroupFooter.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9.75pt, style=Bold</value>
+  </data>
+  <data name="gridViewTodaySummary.Appearance.GroupRow.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9.75pt, style=Bold</value>
+  </data>
+  <data name="gridViewTodaySummary.Appearance.HeaderPanel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 11.25pt, style=Bold</value>
+  </data>
+  <data name="gridViewTodaySummary.Appearance.Preview.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9.75pt, style=Bold</value>
+  </data>
+  <data name="gridViewTodaySummary.Appearance.Row.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9.75pt, style=Bold</value>
+  </data>
+  <data name="gridViewTodaySummary.Appearance.TopNewRow.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9.75pt, style=Bold</value>
+  </data>
+  <data name="colSection.Caption" xml:space="preserve">
+    <value>Section</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="colSection.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colSection.VisibleIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="colValue.Caption" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="colValue.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colValue.VisibleIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="gridControlTodaySummary.Size" type="System.Drawing.Size, System.Drawing">
+    <value>416, 153</value>
+  </data>
+  <data name="gridControlTodaySummary.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;gridControlTodaySummary.Name" xml:space="preserve">
+    <value>gridControlTodaySummary</value>
+  </data>
+  <data name="&gt;&gt;gridControlTodaySummary.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.GridControl, DevExpress.XtraGrid.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridControlTodaySummary.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;gridControlTodaySummary.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="svgImageUsers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1385, 34</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="svgImageUsers.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>10, 10, 10, 10</value>
+  </data>
+  <data name="svgImageUsers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 80</value>
+  </data>
+  <data name="svgImageUsers.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="svgImageUsers.Text" xml:space="preserve">
+    <value>svgImageBox5</value>
+  </data>
+  <data name="&gt;&gt;svgImageUsers.Name" xml:space="preserve">
+    <value>svgImageUsers</value>
+  </data>
+  <data name="&gt;&gt;svgImageUsers.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SvgImageBox, DevExpress.Utils.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;svgImageUsers.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;svgImageUsers.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="svgImageCustomers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1098, 34</value>
+  </data>
+  <data name="svgImageCustomers.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>10, 10, 10, 10</value>
+  </data>
+  <data name="svgImageCustomers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 80</value>
+  </data>
+  <data name="svgImageCustomers.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="svgImageCustomers.Text" xml:space="preserve">
+    <value>svgImageBox4</value>
+  </data>
+  <data name="&gt;&gt;svgImageCustomers.Name" xml:space="preserve">
+    <value>svgImageCustomers</value>
+  </data>
+  <data name="&gt;&gt;svgImageCustomers.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SvgImageBox, DevExpress.Utils.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;svgImageCustomers.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;svgImageCustomers.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="svgImageCourts.Location" type="System.Drawing.Point, System.Drawing">
+    <value>832, 34</value>
+  </data>
+  <data name="svgImageCourts.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>10, 10, 10, 10</value>
+  </data>
+  <data name="svgImageCourts.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 80</value>
+  </data>
+  <data name="svgImageCourts.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="svgImageCourts.Text" xml:space="preserve">
+    <value>svgImageBox3</value>
+  </data>
+  <data name="&gt;&gt;svgImageCourts.Name" xml:space="preserve">
+    <value>svgImageCourts</value>
+  </data>
+  <data name="&gt;&gt;svgImageCourts.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SvgImageBox, DevExpress.Utils.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;svgImageCourts.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;svgImageCourts.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="svgImageCases.Location" type="System.Drawing.Point, System.Drawing">
+    <value>528, 34</value>
+  </data>
+  <data name="svgImageCases.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>10, 10, 10, 10</value>
+  </data>
+  <data name="svgImageCases.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 80</value>
+  </data>
+  <data name="svgImageCases.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="svgImageCases.Text" xml:space="preserve">
+    <value>svgImageBox2</value>
+  </data>
+  <data name="&gt;&gt;svgImageCases.Name" xml:space="preserve">
+    <value>svgImageCases</value>
+  </data>
+  <data name="&gt;&gt;svgImageCases.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SvgImageBox, DevExpress.Utils.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;svgImageCases.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;svgImageCases.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="totalImage.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="totalImage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 211</value>
+  </data>
+  <data name="totalImage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 103</value>
+  </data>
+  <data name="totalImage.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="totalImage.Text" xml:space="preserve">
+    <value>svgImageBox2</value>
+  </data>
+  <data name="&gt;&gt;totalImage.Name" xml:space="preserve">
+    <value>totalImage</value>
+  </data>
+  <data name="&gt;&gt;totalImage.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SvgImageBox, DevExpress.Utils.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;totalImage.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;totalImage.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="svgImageBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>228, 211</value>
+  </data>
+  <data name="svgImageBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 103</value>
+  </data>
+  <data name="svgImageBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="svgImageBox1.Text" xml:space="preserve">
+    <value>svgImageBox1</value>
+  </data>
+  <data name="&gt;&gt;svgImageBox1.Name" xml:space="preserve">
+    <value>svgImageBox1</value>
+  </data>
+  <data name="&gt;&gt;svgImageBox1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SvgImageBox, DevExpress.Utils.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;svgImageBox1.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;svgImageBox1.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="txtTotal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Digital-7, 15.75pt, style=Bold</value>
+  </data>
+  <data name="txtTotal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 161</value>
+  </data>
+  <data name="txtTotal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 46</value>
+  </data>
+  <data name="txtTotal.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="txtTotal.Text" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="txtTotal.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;txtTotal.Name" xml:space="preserve">
+    <value>txtTotal</value>
+  </data>
+  <data name="&gt;&gt;txtTotal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtTotal.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;txtTotal.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="txtTotalExpense.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Digital-7, 15.75pt, style=Bold</value>
+  </data>
+  <data name="txtTotalExpense.Location" type="System.Drawing.Point, System.Drawing">
+    <value>228, 161</value>
+  </data>
+  <data name="txtTotalExpense.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 46</value>
+  </data>
+  <data name="txtTotalExpense.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="txtTotalExpense.Text" xml:space="preserve">
+    <value>Expenses</value>
+  </data>
+  <data name="txtTotalExpense.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;txtTotalExpense.Name" xml:space="preserve">
+    <value>txtTotalExpense</value>
+  </data>
+  <data name="&gt;&gt;txtTotalExpense.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtTotalExpense.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;txtTotalExpense.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="txtUserTotal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 24pt, style=Bold</value>
+  </data>
+  <data name="txtUserTotal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1256, 34</value>
+  </data>
+  <data name="txtUserTotal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 80</value>
+  </data>
+  <data name="txtUserTotal.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="txtUserTotal.Text" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="txtUserTotal.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;txtUserTotal.Name" xml:space="preserve">
+    <value>txtUserTotal</value>
+  </data>
+  <data name="&gt;&gt;txtUserTotal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtUserTotal.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;txtUserTotal.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="txtCustTotal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 24pt, style=Bold</value>
+  </data>
+  <data name="txtCustTotal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>950, 34</value>
+  </data>
+  <data name="txtCustTotal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 80</value>
+  </data>
+  <data name="txtCustTotal.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="txtCustTotal.Text" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="txtCustTotal.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;txtCustTotal.Name" xml:space="preserve">
+    <value>txtCustTotal</value>
+  </data>
+  <data name="&gt;&gt;txtCustTotal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtCustTotal.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;txtCustTotal.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="txtSalesTotal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 18pt, style=Bold</value>
+  </data>
+  <data name="txtSalesTotal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>328, 34</value>
+  </data>
+  <data name="txtSalesTotal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 80</value>
+  </data>
+  <data name="txtSalesTotal.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="txtSalesTotal.Text" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="txtSalesTotal.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;txtSalesTotal.Name" xml:space="preserve">
+    <value>txtSalesTotal</value>
+  </data>
+  <data name="&gt;&gt;txtSalesTotal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtSalesTotal.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;txtSalesTotal.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="txtPurchasesTotal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 18pt, style=Bold</value>
+  </data>
+  <data name="txtPurchasesTotal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>671, 34</value>
+  </data>
+  <data name="txtPurchasesTotal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 80</value>
+  </data>
+  <data name="txtPurchasesTotal.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="txtPurchasesTotal.Text" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="txtPurchasesTotal.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;txtPurchasesTotal.Name" xml:space="preserve">
+    <value>txtPurchasesTotal</value>
+  </data>
+  <data name="&gt;&gt;txtPurchasesTotal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtPurchasesTotal.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;txtPurchasesTotal.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="gridControlCustomers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>792, 431</value>
+  </data>
+  <data name="gridViewCustomers.Appearance.FocusedRow.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 11.25pt, style=Bold</value>
+  </data>
+  <data name="gridViewCustomers.Appearance.GroupFooter.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 11.25pt, style=Bold</value>
+  </data>
+  <data name="gridViewCustomers.Appearance.GroupRow.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 11.25pt, style=Bold</value>
+  </data>
+  <data name="gridViewCustomers.Appearance.HeaderPanel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt, style=Bold</value>
+  </data>
+  <data name="gridViewCustomers.Appearance.Preview.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 11.25pt, style=Bold</value>
+  </data>
+  <data name="gridViewCustomers.Appearance.Row.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 11.25pt, style=Bold</value>
+  </data>
+  <data name="gridViewCustomers.Appearance.TopNewRow.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 11.25pt, style=Bold</value>
+  </data>
+  <data name="colFirstName.Caption" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="colFirstName.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colFirstName.VisibleIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="colFirstName.Width" type="System.Int32, mscorlib">
+    <value>463</value>
+  </data>
+  <data name="colLastName.Caption" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="colLastName.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colLastName.VisibleIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="colLastName.Width" type="System.Int32, mscorlib">
+    <value>454</value>
+  </data>
+  <data name="colEmail.Caption" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="colEmail.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colEmail.VisibleIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="colEmail.Width" type="System.Int32, mscorlib">
+    <value>326</value>
+  </data>
+  <data name="colGender.Caption" xml:space="preserve">
+    <value>Gender</value>
+  </data>
+  <data name="colGender.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colGender.VisibleIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="colGender.Width" type="System.Int32, mscorlib">
+    <value>168</value>
+  </data>
+  <data name="colImage.Caption" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="colImage.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colImage.VisibleIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="colImage.Width" type="System.Int32, mscorlib">
+    <value>182</value>
+  </data>
+  <data name="colCreatedAt.Caption" xml:space="preserve">
+    <value>Created At</value>
+  </data>
+  <data name="gridControlCustomers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>536, 239</value>
+  </data>
+  <data name="gridControlCustomers.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;gridControlCustomers.Name" xml:space="preserve">
+    <value>gridControlCustomers</value>
+  </data>
+  <data name="&gt;&gt;gridControlCustomers.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.GridControl, DevExpress.XtraGrid.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridControlCustomers.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;gridControlCustomers.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="gridControlProducts.Location" type="System.Drawing.Point, System.Drawing">
+    <value>451, 152</value>
+  </data>
+  <data name="gridViewProducts.Appearance.FocusedRow.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 11.25pt, style=Bold</value>
+  </data>
+  <data name="gridViewProducts.Appearance.GroupFooter.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 11.25pt, style=Bold</value>
+  </data>
+  <data name="gridViewProducts.Appearance.GroupRow.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 11.25pt, style=Bold</value>
+  </data>
+  <data name="gridViewProducts.Appearance.HeaderPanel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt, style=Bold</value>
+  </data>
+  <data name="gridViewProducts.Appearance.Preview.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 11.25pt, style=Bold</value>
+  </data>
+  <data name="gridViewProducts.Appearance.Row.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 11.25pt, style=Bold</value>
+  </data>
+  <data name="gridViewProducts.Appearance.TopNewRow.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 11.25pt, style=Bold</value>
+  </data>
+  <data name="colProductName.Caption" xml:space="preserve">
+    <value>Product Name</value>
+  </data>
+  <data name="colProductName.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colProductName.VisibleIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="colProductName.Width" type="System.Int32, mscorlib">
+    <value>697</value>
+  </data>
+  <data name="colProdImage.Caption" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="colProdImage.Width" type="System.Int32, mscorlib">
+    <value>175</value>
+  </data>
+  <data name="colQty.AppearanceCell.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>255, 230, 103</value>
+  </data>
+  <data name="colQty.AppearanceCell.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>255, 230, 103</value>
+  </data>
+  <data name="colQty.AppearanceHeader.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>Gold</value>
+  </data>
+  <data name="colQty.Caption" xml:space="preserve">
+    <value>Qty</value>
+  </data>
+  <data name="colQty.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colQty.VisibleIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="colQty.Width" type="System.Int32, mscorlib">
+    <value>77</value>
+  </data>
+  <data name="colSellingPrice.AppearanceCell.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>128, 255, 128</value>
+  </data>
+  <data name="colSellingPrice.AppearanceHeader.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>Lime</value>
+  </data>
+  <data name="colSellingPrice.Caption" xml:space="preserve">
+    <value>Selling Price</value>
+  </data>
+  <data name="colSellingPrice.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colSellingPrice.VisibleIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="colSellingPrice.Width" type="System.Int32, mscorlib">
+    <value>148</value>
+  </data>
+  <data name="colAlertQuantity.AppearanceCell.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>247, 78, 133</value>
+  </data>
+  <data name="colAlertQuantity.AppearanceHeader.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>238, 10, 85</value>
+  </data>
+  <data name="colAlertQuantity.Caption" xml:space="preserve">
+    <value>Alert Quantity</value>
+  </data>
+  <data name="colAlertQuantity.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colAlertQuantity.VisibleIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="colAlertQuantity.Width" type="System.Int32, mscorlib">
+    <value>124</value>
+  </data>
+  <data name="colCategoryId.Caption" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="colCategoryId.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colCategoryId.VisibleIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="colCategoryId.Width" type="System.Int32, mscorlib">
+    <value>127</value>
+  </data>
+  <data name="colBrandId.Caption" xml:space="preserve">
+    <value>Brand</value>
+  </data>
+  <data name="colBrandId.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colBrandId.VisibleIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="colBrandId.Width" type="System.Int32, mscorlib">
+    <value>114</value>
+  </data>
+  <data name="colWarehouseId.Caption" xml:space="preserve">
+    <value>Warehouse</value>
+  </data>
+  <data name="colWarehouseId.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colWarehouseId.VisibleIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="colWarehouseId.Width" type="System.Int32, mscorlib">
+    <value>131</value>
+  </data>
+  <data name="colProductCreatedAt.Caption" xml:space="preserve">
+    <value>Created At</value>
+  </data>
+  <data name="colProductCreatedAt.Width" type="System.Int32, mscorlib">
+    <value>117</value>
+  </data>
+  <data name="gridControlProducts.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1061, 242</value>
+  </data>
+  <data name="gridControlProducts.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;gridControlProducts.Name" xml:space="preserve">
+    <value>gridControlProducts</value>
+  </data>
+  <data name="&gt;&gt;gridControlProducts.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.GridControl, DevExpress.XtraGrid.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridControlProducts.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;gridControlProducts.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="gridControlPayments.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 431</value>
+  </data>
+  <data name="gridViewPayments.Appearance.GroupFooter.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 11.25pt, style=Bold</value>
+  </data>
+  <data name="gridViewPayments.Appearance.GroupRow.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 11.25pt, style=Bold</value>
+  </data>
+  <data name="gridViewPayments.Appearance.HeaderPanel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt, style=Bold</value>
+  </data>
+  <data name="gridViewPayments.Appearance.Preview.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 11.25pt, style=Bold</value>
+  </data>
+  <data name="gridViewPayments.Appearance.Row.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 11.25pt, style=Bold</value>
+  </data>
+  <data name="gridViewPayments.Appearance.TopNewRow.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 11.25pt, style=Bold</value>
+  </data>
+  <data name="colReferenceNo.Caption" xml:space="preserve">
+    <value>Reference No</value>
+  </data>
+  <data name="colReferenceNo.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colReferenceNo.VisibleIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="colReferenceNo.Width" type="System.Int32, mscorlib">
+    <value>227</value>
+  </data>
+  <data name="colPaymentDate.AppearanceHeader.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>103, 203, 51</value>
+  </data>
+  <data name="colPaymentDate.Caption" xml:space="preserve">
+    <value>Payment Date</value>
+  </data>
+  <data name="colPaymentDate.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colPaymentDate.VisibleIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="colPaymentDate.Width" type="System.Int32, mscorlib">
+    <value>194</value>
+  </data>
+  <data name="colPaymentCreatedAt.Caption" xml:space="preserve">
+    <value>Created At</value>
+  </data>
+  <data name="colPaymentCreatedAt.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colPaymentCreatedAt.VisibleIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="colPaymentCreatedAt.Width" type="System.Int32, mscorlib">
+    <value>201</value>
+  </data>
+  <data name="colPaymentMethod.Caption" xml:space="preserve">
+    <value>Payment Method</value>
+  </data>
+  <data name="colPaymentMethod.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colPaymentMethod.VisibleIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="colPaymentMethod.Width" type="System.Int32, mscorlib">
+    <value>194</value>
+  </data>
+  <data name="colAmount.Caption" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="colAmount.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colAmount.VisibleIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="colAmount.Width" type="System.Int32, mscorlib">
+    <value>194</value>
+  </data>
+  <data name="colCustomerId.Caption" xml:space="preserve">
+    <value>Customer</value>
+  </data>
+  <data name="colCustomerId.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colCustomerId.VisibleIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="colCustomerId.Width" type="System.Int32, mscorlib">
+    <value>389</value>
+  </data>
+  <data name="colDue.AppearanceHeader.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>238, 10, 85</value>
+  </data>
+  <data name="colDue.Caption" xml:space="preserve">
+    <value>Due</value>
+  </data>
+  <data name="colDue.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colDue.VisibleIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="colDue.Width" type="System.Int32, mscorlib">
+    <value>194</value>
+  </data>
+  <data name="gridControlPayments.Size" type="System.Drawing.Size, System.Drawing">
+    <value>769, 239</value>
+  </data>
+  <data name="gridControlPayments.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;gridControlPayments.Name" xml:space="preserve">
+    <value>gridControlPayments</value>
+  </data>
+  <data name="&gt;&gt;gridControlPayments.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.GridControl, DevExpress.XtraGrid.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridControlPayments.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;gridControlPayments.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="btnSales.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>32, 205, 77</value>
+  </data>
+  <data name="btnSales.Appearance.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>32, 205, 77</value>
+  </data>
+  <data name="btnSales.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 11.25pt, style=Bold</value>
+  </data>
+  <data name="btnSales.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 34</value>
+  </data>
+  <data name="btnSales.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 38</value>
+  </data>
+  <data name="btnSales.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnSales.Text" xml:space="preserve">
+    <value>Sales</value>
+  </data>
+  <data name="&gt;&gt;btnSales.Name" xml:space="preserve">
+    <value>btnSales</value>
+  </data>
+  <data name="&gt;&gt;btnSales.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnSales.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;btnSales.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="btnPurchases.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>180, 0, 255</value>
+  </data>
+  <data name="btnPurchases.Appearance.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>180, 0, 255</value>
+  </data>
+  <data name="btnPurchases.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 11.25pt, style=Bold</value>
+  </data>
+  <data name="btnPurchases.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 76</value>
+  </data>
+  <data name="btnPurchases.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 38</value>
+  </data>
+  <data name="btnPurchases.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btnPurchases.Text" xml:space="preserve">
+    <value>Purchases</value>
+  </data>
+  <data name="&gt;&gt;btnPurchases.Name" xml:space="preserve">
+    <value>btnPurchases</value>
+  </data>
+  <data name="&gt;&gt;btnPurchases.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnPurchases.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;btnPurchases.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="btnExpenses.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>44, 62, 80</value>
+  </data>
+  <data name="btnExpenses.Appearance.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>44, 62, 80</value>
+  </data>
+  <data name="btnExpenses.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 11.25pt, style=Bold</value>
+  </data>
+  <data name="btnExpenses.Location" type="System.Drawing.Point, System.Drawing">
+    <value>165, 76</value>
+  </data>
+  <data name="btnExpenses.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 38</value>
+  </data>
+  <data name="btnExpenses.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="btnExpenses.Text" xml:space="preserve">
+    <value>Expense</value>
+  </data>
+  <data name="&gt;&gt;btnExpenses.Name" xml:space="preserve">
+    <value>btnExpenses</value>
+  </data>
+  <data name="&gt;&gt;btnExpenses.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnExpenses.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;btnExpenses.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="btnCustomers.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>7, 134, 239</value>
+  </data>
+  <data name="btnCustomers.Appearance.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>7, 134, 239</value>
+  </data>
+  <data name="btnCustomers.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 11.25pt, style=Bold</value>
+  </data>
+  <data name="btnCustomers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>165, 34</value>
+  </data>
+  <data name="btnCustomers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 38</value>
+  </data>
+  <data name="btnCustomers.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnCustomers.Text" xml:space="preserve">
+    <value>Customer</value>
+  </data>
+  <data name="&gt;&gt;btnCustomers.Name" xml:space="preserve">
+    <value>btnCustomers</value>
+  </data>
+  <data name="&gt;&gt;btnCustomers.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnCustomers.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;btnCustomers.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="btnStocks.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>32, 205, 77</value>
+  </data>
+  <data name="btnStocks.Appearance.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>32, 205, 77</value>
+  </data>
+  <data name="btnStocks.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 333</value>
+  </data>
+  <data name="btnStocks.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 60</value>
+  </data>
+  <data name="btnStocks.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="btnStocks.Text" xml:space="preserve">
+    <value>simpleButton1</value>
+  </data>
+  <data name="&gt;&gt;btnStocks.Name" xml:space="preserve">
+    <value>btnStocks</value>
+  </data>
+  <data name="&gt;&gt;btnStocks.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnStocks.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;btnStocks.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="btnWarehouses.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>7, 134, 239</value>
+  </data>
+  <data name="btnWarehouses.Appearance.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>7, 134, 239</value>
+  </data>
+  <data name="btnWarehouses.Location" type="System.Drawing.Point, System.Drawing">
+    <value>119, 333</value>
+  </data>
+  <data name="btnWarehouses.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 60</value>
+  </data>
+  <data name="btnWarehouses.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="btnWarehouses.Text" xml:space="preserve">
+    <value>simpleButton2</value>
+  </data>
+  <data name="&gt;&gt;btnWarehouses.Name" xml:space="preserve">
+    <value>btnWarehouses</value>
+  </data>
+  <data name="&gt;&gt;btnWarehouses.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnWarehouses.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;btnWarehouses.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="btnAttendances.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>180, 0, 255</value>
+  </data>
+  <data name="btnAttendances.Appearance.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>180, 0, 255</value>
+  </data>
+  <data name="btnAttendances.Location" type="System.Drawing.Point, System.Drawing">
+    <value>226, 333</value>
+  </data>
+  <data name="btnAttendances.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 60</value>
+  </data>
+  <data name="btnAttendances.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="btnAttendances.Text" xml:space="preserve">
+    <value>simpleButton3</value>
+  </data>
+  <data name="&gt;&gt;btnAttendances.Name" xml:space="preserve">
+    <value>btnAttendances</value>
+  </data>
+  <data name="&gt;&gt;btnAttendances.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnAttendances.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;btnAttendances.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="btnQuantityAlert.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>44, 62, 80</value>
+  </data>
+  <data name="btnQuantityAlert.Appearance.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>44, 62, 80</value>
+  </data>
+  <data name="btnQuantityAlert.Location" type="System.Drawing.Point, System.Drawing">
+    <value>333, 333</value>
+  </data>
+  <data name="btnQuantityAlert.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 60</value>
+  </data>
+  <data name="btnQuantityAlert.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="btnQuantityAlert.Text" xml:space="preserve">
+    <value>simpleButton4</value>
+  </data>
+  <data name="&gt;&gt;btnQuantityAlert.Name" xml:space="preserve">
+    <value>btnQuantityAlert</value>
+  </data>
+  <data name="&gt;&gt;btnQuantityAlert.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnQuantityAlert.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;btnQuantityAlert.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="btnPromotions.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>32, 205, 77</value>
+  </data>
+  <data name="btnPromotions.Appearance.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>32, 205, 77</value>
+  </data>
+  <data name="btnPromotions.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt, style=Bold</value>
+  </data>
+  <data name="btnPromotions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1362, 683</value>
+  </data>
+  <data name="btnPromotions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 55</value>
+  </data>
+  <data name="btnPromotions.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="btnPromotions.Text" xml:space="preserve">
+    <value>Promotions</value>
+  </data>
+  <data name="&gt;&gt;btnPromotions.Name" xml:space="preserve">
+    <value>btnPromotions</value>
+  </data>
+  <data name="&gt;&gt;btnPromotions.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnPromotions.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;btnPromotions.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="btnWastes.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>238, 10, 85</value>
+  </data>
+  <data name="btnWastes.Appearance.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>238, 10, 85</value>
+  </data>
+  <data name="btnWastes.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt, style=Bold</value>
+  </data>
+  <data name="btnWastes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1212, 683</value>
+  </data>
+  <data name="btnWastes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 55</value>
+  </data>
+  <data name="btnWastes.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="btnWastes.Text" xml:space="preserve">
+    <value>Wastes</value>
+  </data>
+  <data name="&gt;&gt;btnWastes.Name" xml:space="preserve">
+    <value>btnWastes</value>
+  </data>
+  <data name="&gt;&gt;btnWastes.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnWastes.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;btnWastes.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="btnSuppliers.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>Coral</value>
+  </data>
+  <data name="btnSuppliers.Appearance.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>127, 140, 141</value>
+  </data>
+  <data name="btnSuppliers.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt, style=Bold</value>
+  </data>
+  <data name="btnSuppliers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1062, 683</value>
+  </data>
+  <data name="btnSuppliers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 55</value>
+  </data>
+  <data name="btnSuppliers.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="btnSuppliers.Text" xml:space="preserve">
+    <value>Suppliers</value>
+  </data>
+  <data name="&gt;&gt;btnSuppliers.Name" xml:space="preserve">
+    <value>btnSuppliers</value>
+  </data>
+  <data name="&gt;&gt;btnSuppliers.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnSuppliers.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;btnSuppliers.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="btnActionCurrencies.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>241, 196, 15</value>
+  </data>
+  <data name="btnActionCurrencies.Appearance.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>241, 196, 15</value>
+  </data>
+  <data name="btnActionCurrencies.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt, style=Bold</value>
+  </data>
+  <data name="btnActionCurrencies.Location" type="System.Drawing.Point, System.Drawing">
+    <value>912, 683</value>
+  </data>
+  <data name="btnActionCurrencies.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 55</value>
+  </data>
+  <data name="btnActionCurrencies.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="btnActionCurrencies.Text" xml:space="preserve">
+    <value>Currencies</value>
+  </data>
+  <data name="&gt;&gt;btnActionCurrencies.Name" xml:space="preserve">
+    <value>btnActionCurrencies</value>
+  </data>
+  <data name="&gt;&gt;btnActionCurrencies.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnActionCurrencies.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;btnActionCurrencies.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="btnActionUsers.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>211, 84, 0</value>
+  </data>
+  <data name="btnActionUsers.Appearance.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>211, 84, 0</value>
+  </data>
+  <data name="btnActionUsers.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt, style=Bold</value>
+  </data>
+  <data name="btnActionUsers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>762, 683</value>
+  </data>
+  <data name="btnActionUsers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 55</value>
+  </data>
+  <data name="btnActionUsers.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="btnActionUsers.Text" xml:space="preserve">
+    <value>Users</value>
+  </data>
+  <data name="&gt;&gt;btnActionUsers.Name" xml:space="preserve">
+    <value>btnActionUsers</value>
+  </data>
+  <data name="&gt;&gt;btnActionUsers.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnActionUsers.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;btnActionUsers.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="btnRegisters.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>243, 156, 18</value>
+  </data>
+  <data name="btnRegisters.Appearance.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>243, 156, 18</value>
+  </data>
+  <data name="btnRegisters.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt, style=Bold</value>
+  </data>
+  <data name="btnRegisters.Location" type="System.Drawing.Point, System.Drawing">
+    <value>612, 683</value>
+  </data>
+  <data name="btnRegisters.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 55</value>
+  </data>
+  <data name="btnRegisters.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="btnRegisters.Text" xml:space="preserve">
+    <value>Registers</value>
+  </data>
+  <data name="&gt;&gt;btnRegisters.Name" xml:space="preserve">
+    <value>btnRegisters</value>
+  </data>
+  <data name="&gt;&gt;btnRegisters.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnRegisters.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;btnRegisters.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="btnActionExpenses.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>7, 134, 239</value>
+  </data>
+  <data name="btnActionExpenses.Appearance.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>7, 134, 239</value>
+  </data>
+  <data name="btnActionExpenses.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt, style=Bold</value>
+  </data>
+  <data name="btnActionExpenses.Location" type="System.Drawing.Point, System.Drawing">
+    <value>462, 683</value>
+  </data>
+  <data name="btnActionExpenses.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 55</value>
+  </data>
+  <data name="btnActionExpenses.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="btnActionExpenses.Text" xml:space="preserve">
+    <value>Expenses</value>
+  </data>
+  <data name="&gt;&gt;btnActionExpenses.Name" xml:space="preserve">
+    <value>btnActionExpenses</value>
+  </data>
+  <data name="&gt;&gt;btnActionExpenses.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnActionExpenses.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;btnActionExpenses.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="btnBrands.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>22, 160, 133</value>
+  </data>
+  <data name="btnBrands.Appearance.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>22, 160, 133</value>
+  </data>
+  <data name="btnBrands.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt, style=Bold</value>
+  </data>
+  <data name="btnBrands.Location" type="System.Drawing.Point, System.Drawing">
+    <value>312, 683</value>
+  </data>
+  <data name="btnBrands.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 55</value>
+  </data>
+  <data name="btnBrands.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="btnBrands.Text" xml:space="preserve">
+    <value>Brands</value>
+  </data>
+  <data name="&gt;&gt;btnBrands.Name" xml:space="preserve">
+    <value>btnBrands</value>
+  </data>
+  <data name="&gt;&gt;btnBrands.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnBrands.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;btnBrands.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="btnCategories.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>180, 0, 255</value>
+  </data>
+  <data name="btnCategories.Appearance.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>180, 0, 255</value>
+  </data>
+  <data name="btnCategories.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt, style=Bold</value>
+  </data>
+  <data name="btnCategories.Location" type="System.Drawing.Point, System.Drawing">
+    <value>162, 683</value>
+  </data>
+  <data name="btnCategories.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 55</value>
+  </data>
+  <data name="btnCategories.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="btnCategories.Text" xml:space="preserve">
+    <value>Categories</value>
+  </data>
+  <data name="&gt;&gt;btnCategories.Name" xml:space="preserve">
+    <value>btnCategories</value>
+  </data>
+  <data name="&gt;&gt;btnCategories.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnCategories.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;btnCategories.ZOrder" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="btnProducts.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>32, 205, 77</value>
+  </data>
+  <data name="btnProducts.Appearance.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>32, 205, 77</value>
+  </data>
+  <data name="btnProducts.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt, style=Bold</value>
+  </data>
+  <data name="btnProducts.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 683</value>
+  </data>
+  <data name="btnProducts.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 55</value>
+  </data>
+  <data name="btnProducts.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="btnProducts.Text" xml:space="preserve">
+    <value>Products</value>
+  </data>
+  <data name="&gt;&gt;btnProducts.Name" xml:space="preserve">
+    <value>btnProducts</value>
+  </data>
+  <data name="&gt;&gt;btnProducts.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnProducts.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;btnProducts.ZOrder" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="btnPos.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9.75pt, style=Bold</value>
+  </data>
+  <data name="btnPos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1343, 629</value>
+  </data>
+  <data name="btnPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 38</value>
+  </data>
+  <data name="btnPos.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="btnPos.Text" xml:space="preserve">
+    <value>Pos</value>
+  </data>
+  <data name="&gt;&gt;btnPos.Name" xml:space="preserve">
+    <value>btnPos</value>
+  </data>
+  <data name="&gt;&gt;btnPos.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnPos.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;btnPos.ZOrder" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <data name="btnPurchaseHistories.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9.75pt, style=Bold</value>
+  </data>
+  <data name="btnPurchaseHistories.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1343, 590</value>
+  </data>
+  <data name="btnPurchaseHistories.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 35</value>
+  </data>
+  <data name="btnPurchaseHistories.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="btnPurchaseHistories.Text" xml:space="preserve">
+    <value>Purchase Histories</value>
+  </data>
+  <data name="&gt;&gt;btnPurchaseHistories.Name" xml:space="preserve">
+    <value>btnPurchaseHistories</value>
+  </data>
+  <data name="&gt;&gt;btnPurchaseHistories.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnPurchaseHistories.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;btnPurchaseHistories.ZOrder" xml:space="preserve">
+    <value>39</value>
+  </data>
+  <data name="btnSalesHistories.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9.75pt, style=Bold</value>
+  </data>
+  <data name="btnSalesHistories.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1343, 551</value>
+  </data>
+  <data name="btnSalesHistories.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 35</value>
+  </data>
+  <data name="btnSalesHistories.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="btnSalesHistories.Text" xml:space="preserve">
+    <value>Sales Histories</value>
+  </data>
+  <data name="&gt;&gt;btnSalesHistories.Name" xml:space="preserve">
+    <value>btnSalesHistories</value>
+  </data>
+  <data name="&gt;&gt;btnSalesHistories.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnSalesHistories.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;btnSalesHistories.ZOrder" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="btnLockScreen.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9.75pt, style=Bold</value>
+  </data>
+  <data name="btnLockScreen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1343, 512</value>
+  </data>
+  <data name="btnLockScreen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 35</value>
+  </data>
+  <data name="btnLockScreen.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="btnLockScreen.Text" xml:space="preserve">
+    <value>Lock Screen</value>
+  </data>
+  <data name="&gt;&gt;btnLockScreen.Name" xml:space="preserve">
+    <value>btnLockScreen</value>
+  </data>
+  <data name="&gt;&gt;btnLockScreen.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnLockScreen.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;btnLockScreen.ZOrder" xml:space="preserve">
+    <value>41</value>
+  </data>
+  <data name="btnCloseRegister.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9.75pt, style=Bold</value>
+  </data>
+  <data name="btnCloseRegister.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1343, 473</value>
+  </data>
+  <data name="btnCloseRegister.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 35</value>
+  </data>
+  <data name="btnCloseRegister.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="btnCloseRegister.Text" xml:space="preserve">
+    <value>Close Register</value>
+  </data>
+  <data name="&gt;&gt;btnCloseRegister.Name" xml:space="preserve">
+    <value>btnCloseRegister</value>
+  </data>
+  <data name="&gt;&gt;btnCloseRegister.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnCloseRegister.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;btnCloseRegister.ZOrder" xml:space="preserve">
+    <value>42</value>
+  </data>
+  <data name="btnTodaysSummary.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9.75pt, style=Bold</value>
+  </data>
+  <data name="btnTodaysSummary.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1343, 434</value>
+  </data>
+  <data name="btnTodaysSummary.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 35</value>
+  </data>
+  <data name="btnTodaysSummary.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="btnTodaysSummary.Text" xml:space="preserve">
+    <value>Today's Summary</value>
+  </data>
+  <data name="&gt;&gt;btnTodaysSummary.Name" xml:space="preserve">
+    <value>btnTodaysSummary</value>
+  </data>
+  <data name="&gt;&gt;btnTodaysSummary.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnTodaysSummary.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;btnTodaysSummary.ZOrder" xml:space="preserve">
+    <value>43</value>
+  </data>
+  <data name="layoutControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="layoutControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="layoutControlGroup4.AppearanceGroup.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt, style=Bold</value>
+  </data>
+  <data name="layoutControlGroup4.Text" xml:space="preserve">
+    <value>Customers</value>
+  </data>
+  <data name="layoutControlGroup2.AppearanceGroup.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt, style=Bold</value>
+  </data>
+  <data name="layoutControlGroup2.Text" xml:space="preserve">
+    <value>Sales</value>
+  </data>
+  <data name="layoutControlGroup6.AppearanceGroup.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt, style=Bold</value>
+  </data>
+  <data name="layoutControlGroup6.Text" xml:space="preserve">
+    <value>Purchases</value>
+  </data>
+  <data name="layoutControlGroup7.AppearanceGroup.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt, style=Bold</value>
+  </data>
+  <data name="layoutControlItem6.AppearanceItemCaption.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>Fuchsia</value>
+  </data>
+  <data name="layoutControlItem6.AppearanceItemCaption.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>Fuchsia</value>
+  </data>
+  <data name="layoutControlGroup7.Text" xml:space="preserve">
+    <value>Customers</value>
+  </data>
+  <data name="layoutControlGroup8.AppearanceGroup.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt, style=Bold</value>
+  </data>
+  <data name="layoutControlGroup8.Text" xml:space="preserve">
+    <value>Users</value>
+  </data>
+  <data name="layoutControlGroup5.AppearanceGroup.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt, style=Bold</value>
+  </data>
+  <data name="layoutControlGroup5.Text" xml:space="preserve">
+    <value>Quick Actions</value>
+  </data>
+  <data name="layoutControlGroup3.AppearanceGroup.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt, style=Bold</value>
+  </data>
+  <data name="layoutControlGroup3.Text" xml:space="preserve">
+    <value>Products</value>
+  </data>
+  <data name="layoutControlGroup1.AppearanceGroup.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt, style=Bold</value>
+  </data>
+  <data name="layoutControlGroup1.Text" xml:space="preserve">
+    <value>Payments</value>
+  </data>
+  <data name="tabbedControlGroup1.AppearanceTabPage.HeaderActive.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>Lime</value>
+  </data>
+  <assembly alias="DevExpress.Data.v23.2" name="DevExpress.Data.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="tabbedControlGroup1.HeaderAutoFill" type="DevExpress.Utils.DefaultBoolean, DevExpress.Data.v23.2">
+    <value>True</value>
+  </data>
+  <data name="layoutControlGroup9.AppearanceTabPage.Header.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 11.25pt, style=Bold</value>
+  </data>
+  <data name="layoutControlGroup9.Text" xml:space="preserve">
+    <value>Statistics</value>
+  </data>
+  <data name="layoutControlGroup12.AppearanceTabPage.Header.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 11.25pt, style=Bold</value>
+  </data>
+  <data name="layoutControlGroup12.Text" xml:space="preserve">
+    <value>Today's Summary</value>
+  </data>
+  <data name="layoutControlGroup17.AppearanceGroup.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>44, 62, 80</value>
+  </data>
+  <data name="layoutControlGroup17.AppearanceGroup.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>44, 62, 80</value>
+  </data>
+  <data name="layoutControlGroup17.AppearanceGroup.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt, style=Bold</value>
+  </data>
+  <data name="layoutControlGroup17.Text" xml:space="preserve">
+    <value>Shortcut</value>
+  </data>
+  <data name="layoutControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1523, 750</value>
+  </data>
+  <data name="layoutControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="layoutControl1.Text" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;layoutControl1.Name" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;layoutControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControl, DevExpress.XtraLayout.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;layoutControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="Dashboard.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>White</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1523, 750</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+  <data name="&gt;&gt;gridViewTodaySummary.Name" xml:space="preserve">
+    <value>gridViewTodaySummary</value>
+  </data>
+  <data name="&gt;&gt;gridViewTodaySummary.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colSection.Name" xml:space="preserve">
+    <value>colSection</value>
+  </data>
+  <data name="&gt;&gt;colSection.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colValue.Name" xml:space="preserve">
+    <value>colValue</value>
+  </data>
+  <data name="&gt;&gt;colValue.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridViewCustomers.Name" xml:space="preserve">
+    <value>gridViewCustomers</value>
+  </data>
+  <data name="&gt;&gt;gridViewCustomers.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colFirstName.Name" xml:space="preserve">
+    <value>colFirstName</value>
+  </data>
+  <data name="&gt;&gt;colFirstName.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colLastName.Name" xml:space="preserve">
+    <value>colLastName</value>
+  </data>
+  <data name="&gt;&gt;colLastName.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colEmail.Name" xml:space="preserve">
+    <value>colEmail</value>
+  </data>
+  <data name="&gt;&gt;colEmail.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colGender.Name" xml:space="preserve">
+    <value>colGender</value>
+  </data>
+  <data name="&gt;&gt;colGender.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colImage.Name" xml:space="preserve">
+    <value>colImage</value>
+  </data>
+  <data name="&gt;&gt;colImage.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colCreatedAt.Name" xml:space="preserve">
+    <value>colCreatedAt</value>
+  </data>
+  <data name="&gt;&gt;colCreatedAt.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridViewProducts.Name" xml:space="preserve">
+    <value>gridViewProducts</value>
+  </data>
+  <data name="&gt;&gt;gridViewProducts.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colProductName.Name" xml:space="preserve">
+    <value>colProductName</value>
+  </data>
+  <data name="&gt;&gt;colProductName.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colProdImage.Name" xml:space="preserve">
+    <value>colProdImage</value>
+  </data>
+  <data name="&gt;&gt;colProdImage.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colQty.Name" xml:space="preserve">
+    <value>colQty</value>
+  </data>
+  <data name="&gt;&gt;colQty.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colSellingPrice.Name" xml:space="preserve">
+    <value>colSellingPrice</value>
+  </data>
+  <data name="&gt;&gt;colSellingPrice.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colAlertQuantity.Name" xml:space="preserve">
+    <value>colAlertQuantity</value>
+  </data>
+  <data name="&gt;&gt;colAlertQuantity.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colCategoryId.Name" xml:space="preserve">
+    <value>colCategoryId</value>
+  </data>
+  <data name="&gt;&gt;colCategoryId.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colBrandId.Name" xml:space="preserve">
+    <value>colBrandId</value>
+  </data>
+  <data name="&gt;&gt;colBrandId.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colWarehouseId.Name" xml:space="preserve">
+    <value>colWarehouseId</value>
+  </data>
+  <data name="&gt;&gt;colWarehouseId.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colProductCreatedAt.Name" xml:space="preserve">
+    <value>colProductCreatedAt</value>
+  </data>
+  <data name="&gt;&gt;colProductCreatedAt.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridViewPayments.Name" xml:space="preserve">
+    <value>gridViewPayments</value>
+  </data>
+  <data name="&gt;&gt;gridViewPayments.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colReferenceNo.Name" xml:space="preserve">
+    <value>colReferenceNo</value>
+  </data>
+  <data name="&gt;&gt;colReferenceNo.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colPaymentDate.Name" xml:space="preserve">
+    <value>colPaymentDate</value>
+  </data>
+  <data name="&gt;&gt;colPaymentDate.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colPaymentCreatedAt.Name" xml:space="preserve">
+    <value>colPaymentCreatedAt</value>
+  </data>
+  <data name="&gt;&gt;colPaymentCreatedAt.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colPaymentMethod.Name" xml:space="preserve">
+    <value>colPaymentMethod</value>
+  </data>
+  <data name="&gt;&gt;colPaymentMethod.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colAmount.Name" xml:space="preserve">
+    <value>colAmount</value>
+  </data>
+  <data name="&gt;&gt;colAmount.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colCustomerId.Name" xml:space="preserve">
+    <value>colCustomerId</value>
+  </data>
+  <data name="&gt;&gt;colCustomerId.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colDue.Name" xml:space="preserve">
+    <value>colDue</value>
+  </data>
+  <data name="&gt;&gt;colDue.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;Root.Name" xml:space="preserve">
+    <value>Root</value>
+  </data>
+  <data name="&gt;&gt;Root.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup4.Name" xml:space="preserve">
+    <value>layoutControlGroup4</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup4.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem3.Name" xml:space="preserve">
+    <value>layoutControlItem3</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem3.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup2.Name" xml:space="preserve">
+    <value>layoutControlGroup2</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup2.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem5.Name" xml:space="preserve">
+    <value>layoutControlItem5</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem5.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem16.Name" xml:space="preserve">
+    <value>layoutControlItem16</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem16.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup6.Name" xml:space="preserve">
+    <value>layoutControlGroup6</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup6.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem4.Name" xml:space="preserve">
+    <value>layoutControlItem4</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem4.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem18.Name" xml:space="preserve">
+    <value>layoutControlItem18</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem18.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup7.Name" xml:space="preserve">
+    <value>layoutControlGroup7</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup7.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem6.Name" xml:space="preserve">
+    <value>layoutControlItem6</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem6.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem19.Name" xml:space="preserve">
+    <value>layoutControlItem19</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem19.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup8.Name" xml:space="preserve">
+    <value>layoutControlGroup8</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup8.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem7.Name" xml:space="preserve">
+    <value>layoutControlItem7</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem7.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem20.Name" xml:space="preserve">
+    <value>layoutControlItem20</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem20.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup5.Name" xml:space="preserve">
+    <value>layoutControlGroup5</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup5.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem8.Name" xml:space="preserve">
+    <value>layoutControlItem8</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem8.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem11.Name" xml:space="preserve">
+    <value>layoutControlItem11</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem11.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem9.Name" xml:space="preserve">
+    <value>layoutControlItem9</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem9.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem10.Name" xml:space="preserve">
+    <value>layoutControlItem10</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem10.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup3.Name" xml:space="preserve">
+    <value>layoutControlGroup3</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup3.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem2.Name" xml:space="preserve">
+    <value>layoutControlItem2</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem2.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup1.Name" xml:space="preserve">
+    <value>layoutControlGroup1</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem1.Name" xml:space="preserve">
+    <value>layoutControlItem1</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup14.Name" xml:space="preserve">
+    <value>layoutControlGroup14</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup14.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem13.Name" xml:space="preserve">
+    <value>layoutControlItem13</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem13.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem21.Name" xml:space="preserve">
+    <value>layoutControlItem21</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem21.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem22.Name" xml:space="preserve">
+    <value>layoutControlItem22</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem22.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem23.Name" xml:space="preserve">
+    <value>layoutControlItem23</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem23.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup15.Name" xml:space="preserve">
+    <value>layoutControlGroup15</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup15.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;tabbedControlGroup1.Name" xml:space="preserve">
+    <value>tabbedControlGroup1</value>
+  </data>
+  <data name="&gt;&gt;tabbedControlGroup1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.TabbedControlGroup, DevExpress.XtraLayout.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup9.Name" xml:space="preserve">
+    <value>layoutControlGroup9</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup9.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem15.Name" xml:space="preserve">
+    <value>layoutControlItem15</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem15.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem17.Name" xml:space="preserve">
+    <value>layoutControlItem17</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem17.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem14.Name" xml:space="preserve">
+    <value>layoutControlItem14</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem14.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;expImage.Name" xml:space="preserve">
+    <value>expImage</value>
+  </data>
+  <data name="&gt;&gt;expImage.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup12.Name" xml:space="preserve">
+    <value>layoutControlGroup12</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup12.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem12.Name" xml:space="preserve">
+    <value>layoutControlItem12</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem12.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup16.Name" xml:space="preserve">
+    <value>layoutControlGroup16</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup16.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem24.Name" xml:space="preserve">
+    <value>layoutControlItem24</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem24.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem25.Name" xml:space="preserve">
+    <value>layoutControlItem25</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem25.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem26.Name" xml:space="preserve">
+    <value>layoutControlItem26</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem26.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem27.Name" xml:space="preserve">
+    <value>layoutControlItem27</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem27.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem28.Name" xml:space="preserve">
+    <value>layoutControlItem28</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem28.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem29.Name" xml:space="preserve">
+    <value>layoutControlItem29</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem29.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem30.Name" xml:space="preserve">
+    <value>layoutControlItem30</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem30.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem31.Name" xml:space="preserve">
+    <value>layoutControlItem31</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem31.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem32.Name" xml:space="preserve">
+    <value>layoutControlItem32</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem32.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem33.Name" xml:space="preserve">
+    <value>layoutControlItem33</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem33.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup17.Name" xml:space="preserve">
+    <value>layoutControlGroup17</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup17.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem34.Name" xml:space="preserve">
+    <value>layoutControlItem34</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem34.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem35.Name" xml:space="preserve">
+    <value>layoutControlItem35</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem35.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem36.Name" xml:space="preserve">
+    <value>layoutControlItem36</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem36.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem37.Name" xml:space="preserve">
+    <value>layoutControlItem37</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem37.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem38.Name" xml:space="preserve">
+    <value>layoutControlItem38</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem38.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem39.Name" xml:space="preserve">
+    <value>layoutControlItem39</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem39.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.XtraForm, DevExpress.Utils.v23.2, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+</root>

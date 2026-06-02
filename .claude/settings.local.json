@@ -1,0 +1,39 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(xargs head -50)",
+      "Bash(dotnet build *)",
+      "Bash(awk '{print $NF}')",
+      "Bash(powershell.exe -ExecutionPolicy Bypass -File Fix-FrenchResx.ps1 -TestMode)",
+      "Bash(taskkill *)",
+      "Bash(powershell.exe *)",
+      "Bash(git checkout *)",
+      "Bash(grep -E \"^\\(obj|bin\\)$\")",
+      "Bash(dotnet restore *)",
+      "Bash(dotnet ef *)",
+      "Bash(dotnet tool *)",
+      "Bash(sqlcmd *)",
+      "Bash(grep -E \"\\\\\\\\.cs$\")",
+      "Bash(grep -n \"^        }$\" Forms/Screen/Pos.cs)",
+      "Bash(awk 'NR>=10 && NR<=30')",
+      "Bash(awk '/^        public void pay\\\\\\(\\\\\\)/{p=1; start=NR} p{lines++} p && /^            \\\\}$/ && lines>10{print NR; p=0; exit}' Forms/Screen/Pos.cs)",
+      "Bash(where msbuild *)",
+      "Read(//c/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/**)",
+      "Read(//c/Program Files/Microsoft Visual Studio/2022/Enterprise/MSBuild/Current/Bin/**)",
+      "Read(//c/Program Files \\(x86\\)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/**)",
+      "Bash(git config *)",
+      "Bash(git add *)",
+      "Bash(grep \"\\\\.cs$\\\\|\\\\.md$\")",
+      "Bash(git commit -m ' *)",
+      "Bash(git branch *)",
+      "Bash(git commit -m 'docs: add README and CONTRIBUTING guides *)",
+      "Bash(git commit -m 'docs: add VERSION.md tracking file *)",
+      "Bash(git commit -m 'docs: add Git status and next steps guide *)",
+      "Bash(git remote *)",
+      "Bash(git commit -m 'chore: update Claude Code permissions *)",
+      "Bash(git push *)",
+      "Bash(git stash *)",
+      "Bash(git commit -m 'security: remove test API keys from codebase *)"
+    ]
+  }
+}

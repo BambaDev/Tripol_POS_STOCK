@@ -1,0 +1,161 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Report\Sale\**" />
+    <EmbeddedResource Remove="Report\Sale\**" />
+    <None Remove="Report\Sale\**" />
+    <Page Remove="Report\Sale\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Forms\CardFidelity\Redemption\AddEditRedemption.cs~RF8b58051.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+    <PackageReference Include="DevExpress.Win.BonusSkins" Version="23.2.3" />
+    <PackageReference Include="DevExpress.Win.Design" Version="23.2.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="SqlTableDependency" Version="8.5.8" />
+    <PackageReference Include="Stripe.net" Version="47.1.0" />
+    <PackageReference Include="System.Management" Version="9.0.0" />
+    <PackageReference Include="Twilio" Version="7.8.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Resources\Sounds\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Forms\Alert\AlertMessageBox.cs" />
+    <Compile Update="Forms\Alert\UpdateQty.cs" />
+    <Compile Update="Forms\Alert\FeatureDisabled.cs" />
+    <Compile Update="Forms\Alert\TodaySummary.cs" />
+    <Compile Update="Forms\Alert\CloseRegister.cs" />
+    <Compile Update="Forms\AuditTrail\AuditTrail.cs" />
+    <Compile Update="Forms\Auth\LockScreen.cs" />
+    <Compile Update="Forms\BusinessLocation\AddEditBusinessLocation.cs" />
+    <Compile Update="Forms\BusinessLocation\BusinessLocations.cs" />
+    <Compile Update="Forms\CardFidelity\ActivityLog\ActivityLogs.cs" />
+    <Compile Update="Forms\CardFidelity\Redemption\AddEditRedemption.cs" />
+    <Compile Update="Forms\CardFidelity\Redemption\Redemptions.cs" />
+    <Compile Update="Forms\CardFidelity\Reward\AddEditReward.cs" />
+    <Compile Update="Forms\CardFidelity\Reward\PreviewRewards.cs" />
+    <Compile Update="Forms\CardFidelity\Reward\Rewards.cs" />
+    <Compile Update="Forms\CardFidelity\Tier\AddEditTier.cs" />
+    <Compile Update="Forms\CardFidelity\Tier\Tiers.cs" />
+    <Compile Update="Forms\CardFidelity\Transaction\Transactions.cs" />
+    <Compile Update="Forms\Customer\OrderPayment.cs" />
+    <Compile Update="Forms\Employee\AddEditEmployee.cs" />
+    <Compile Update="Forms\Employee\Attendance\AddEditAttendance.cs" />
+    <Compile Update="Forms\Employee\Attendance\Attendances.cs" />
+    <Compile Update="Forms\Employee\EmployeePerformanceReview\AddEditEmployeeReview.cs" />
+    <Compile Update="Forms\Employee\EmployeePerformanceReview\EmployeeReviews.cs" />
+    <Compile Update="Forms\Employee\Payroll\AddEditPayroll.cs" />
+    <Compile Update="Forms\Employee\Payroll\Payrolls.cs" />
+    <Compile Update="Forms\Employee\Evaluation\AddEditEvaluation.cs" />
+    <Compile Update="Forms\Employee\Evaluation\Evaluations.cs" />
+    <Compile Update="Forms\Employee\Skill\AddEditSkill.cs" />
+    <Compile Update="Forms\Employee\Skill\Skills.cs" />
+    <Compile Update="Forms\Employee\Position\AddEditPosition.cs" />
+    <Compile Update="Forms\Employee\Position\Positions.cs" />
+    <Compile Update="Forms\Employee\Employees.cs" />
+    <Compile Update="Forms\Inventory\AddEditInventory.cs" />
+    <Compile Update="Forms\Inventory\InventoryHistory.cs" />
+    <Compile Update="Forms\Inventory\Inventories.cs" />
+    <Compile Update="Forms\Printer\AddEditPrinter.cs" />
+    <Compile Update="Forms\Printer\Printers.cs" />
+    <Compile Update="Forms\Product\Promotion\AddEditPromotion.cs" />
+    <Compile Update="Forms\Product\Promotion\PreviewPromotions.cs" />
+    <Compile Update="Forms\Product\Promotion\Promotions.cs" />
+    <Compile Update="Forms\Purchase\Return\AddEditReturn.cs" />
+    <Compile Update="Forms\Purchase\Return\Returns.cs" />
+    <Compile Update="Forms\Register\OpenRegister.cs" />
+    <Compile Update="Forms\Sale\Return\AddEditReturn.cs" />
+    <Compile Update="Forms\Sale\Return\Returns.cs" />
+    <Compile Update="Forms\Stock\Transfer\AddEditTransfer.cs" />
+    <Compile Update="Forms\Stock\Transfer\Transfers.cs" />
+    <Compile Update="Forms\Stock\Adjustment\AddEditAdjustment.cs" />
+    <Compile Update="Forms\Stock\Adjustment\Adjustments.cs" />
+    <Compile Update="Forms\Stock\Stocks.cs" />
+    <Compile Update="Forms\Tax\AddEditTax.cs" />
+    <Compile Update="Forms\Tax\Taxes.cs" />
+    <Compile Update="Forms\Expense\AddEditExpense.cs" />
+    <Compile Update="Forms\Expense\Category\AddEditExpenseCategory.cs" />
+    <Compile Update="Forms\Expense\Category\ExpenseCategories.cs" />
+    <Compile Update="Forms\Expense\Expenses.cs" />
+    <Compile Update="Forms\Screen\Pos.cs" />
+    <Compile Update="Forms\Product\Currency\AddEditCurrency.cs" />
+    <Compile Update="Forms\Product\Currency\Currencies.cs" />
+    <Compile Update="Forms\Product\Warehouse\AddEditWarehouse.cs" />
+    <Compile Update="Forms\Product\Warehouse\Warehouses.cs" />
+    <Compile Update="Forms\Register\AddEditRegister.cs" />
+    <Compile Update="Forms\Register\Registers.cs" />
+    <Compile Update="Forms\Sale\SaleHistory.cs" />
+    <Compile Update="Forms\Sale\Sales.cs" />
+    <Compile Update="Forms\Purchase\AddEditPurchase.cs" />
+    <Compile Update="Forms\Purchase\Purchases.cs" />
+    <Compile Update="Forms\Product\PriceGroup\AddEditPriceGroup.cs" />
+    <Compile Update="Forms\Product\PriceGroup\PriceGroups.cs" />
+    <Compile Update="Forms\Product\Variation\AddEditVariation.cs" />
+    <Compile Update="Forms\Product\Variation\Variations.cs" />
+    <Compile Update="Forms\Product\Warranty\AddEditWarranty.cs" />
+    <Compile Update="Forms\Product\Warranty\Warranties.cs" />
+    <Compile Update="Forms\Product\Unit\AddEditUnit.cs" />
+    <Compile Update="Forms\Product\Unit\Units.cs" />
+    <Compile Update="Forms\Product\Category\AddEditCategory.cs" />
+    <Compile Update="Forms\Product\Category\Categories.cs" />
+    <Compile Update="Forms\Supplier\AddEditSupplier.cs" />
+    <Compile Update="Forms\Supplier\Suppliers.cs" />
+    <Compile Update="Forms\Brand\AddEditBrand.cs" />
+    <Compile Update="Forms\Brand\Brands.cs" />
+    <Compile Update="Forms\Customer\AddEditCustomer.cs" />
+    <Compile Update="Forms\Customer\Customers.cs" />
+    <Compile Update="Forms\TodoList\AddEditTodoList.cs" />
+    <Compile Update="Forms\TodoList\TodoLists.cs" />
+    <Compile Update="Forms\User\AddEditUserPermissions.cs" />
+    <Compile Update="Forms\User\AddEditUser.cs" />
+    <Compile Update="Forms\User\Users.cs" />
+    <Compile Update="Forms\Waste\AddEditWaste.cs" />
+    <Compile Update="Forms\Waste\Wastes.cs" />
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Properties\Settings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+</Project>

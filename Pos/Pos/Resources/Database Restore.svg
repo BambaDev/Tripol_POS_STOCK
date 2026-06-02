@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="240" height="240">
+  <linearGradient id="IAqdAXmCPWycklICCqSIha" x1="6" x2="38" y1="253.224" y2="253.224" gradientTransform="matrix(1 0 0 -1 0 288.724)" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#11408a" />
+    <stop offset="1" stop-color="#103f8f" />
+  </linearGradient>
+  <path fill="url(#IAqdAXmCPWycklICCqSIha)" d="M38,28H6c0,0,0,10.271,0,11c0,2.209,7.163,4,16,4s16-1.791,16-4C38,38.271,38,28,38,28z" />
+  <linearGradient id="IAqdAXmCPWycklICCqSIhb" x1="6" x2="38" y1="263.224" y2="263.224" gradientTransform="matrix(1 0 0 -1 0 288.724)" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#1d59b3" />
+    <stop offset="1" stop-color="#195bbc" />
+  </linearGradient>
+  <path fill="url(#IAqdAXmCPWycklICCqSIhb)" d="M38,18H6c0,0,0,10.271,0,11c0,2.209,7.163,4,16,4s16-1.791,16-4C38,28.271,38,18,38,18z" />
+  <linearGradient id="IAqdAXmCPWycklICCqSIhc" x1="6" x2="38" y1="273.724" y2="273.724" gradientTransform="matrix(1 0 0 -1 0 288.724)" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#3079d6" />
+    <stop offset="1" stop-color="#297cd2" />
+  </linearGradient>
+  <path fill="url(#IAqdAXmCPWycklICCqSIhc)" d="M38,8H6c0,0,0,9.756,0,10.5c0,1.933,7.163,3.5,16,3.5s16-1.567,16-3.5C38,17.756,38,8,38,8z" />
+  <linearGradient id="IAqdAXmCPWycklICCqSIhd" x1="6" x2="38" y1="280.724" y2="280.724" gradientTransform="matrix(1 0 0 -1 0 288.724)" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#42a3f2" />
+    <stop offset="1" stop-color="#42a4eb" />
+  </linearGradient>
+  <ellipse cx="22" cy="8" fill="url(#IAqdAXmCPWycklICCqSIhd)" rx="16" ry="3" />
+  <linearGradient id="IAqdAXmCPWycklICCqSIhe" x1="-1367.646" x2="-1367.646" y1="995.309" y2="981.889" gradientTransform="matrix(1 0 0 -1 1405.646 1026.982)" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#c965eb" />
+    <stop offset="1" stop-color="#c767e5" />
+  </linearGradient>
+  <path fill="url(#IAqdAXmCPWycklICCqSIhe)" d="M32.607,38H36v6c0,0.552,0.448,1,1,1h2c0.552,0,1-0.448,1-1v-6h3.393c0.54,0,0.81-0.653,0.428-1.034l-4.964-4.964c-0.473-0.473-1.241-0.473-1.714,0l-4.964,4.964C31.797,37.347,32.067,38,32.607,38z" />
+</svg>

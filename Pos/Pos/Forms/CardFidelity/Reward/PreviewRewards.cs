@@ -1,0 +1,87 @@
+﻿using DevExpress.DocumentServices.ServiceModel.DataContracts;
+using DevExpress.Utils.Extensions;
+using DevExpress.XtraBars;
+using DevExpress.XtraEditors;
+using Pos.Forms.Overlay;
+using Pos.Function;
+using Pos.Models;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Runtime.InteropServices;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Pos.Forms.CardFidelity.Reward
+{
+    public partial class PreviewRewards : DevExpress.XtraBars.Ribbon.RibbonForm
+    {
+        public int reward_id = 0;
+
+        public PreviewRewards()
+        {
+            InitializeComponent();
+            this.FormBorderStyle = FormBorderStyle.None;
+            this.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, this.Width, this.Height, 5, 5));
+        }
+
+        [DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
+        private static extern IntPtr CreateRoundRectRgn(
+            int nLeftRect,
+            int nTopRect,
+            int nRightRect,
+            int nBottomRect,
+            int nWidthEllipse,
+            int nHeightEllipse
+        );
+
+        private void Rewards_Load(object sender, EventArgs e)
+        {
+            this.loadRewards();
+        }
+
+        public void loadRewards()
+        {
+            try
+            {
+                // Ensuring the database context is properly initialized
+                if (Shared.db != null)
+                {
+                    DateTime currentDate = DateTime.Now; // Capture the current date and time
+                    var rewards = Shared.db.Rewards
+                        .Where(r => r.ExpirationDate == null || r.ExpirationDate > currentDate) // Check for non-expired rewards
+                        .OrderByDescending(p => p.Id)
+                        .ToList();
+
+                    if (rewards != null && rewards.Count > 0)
+                    {
+                        gridControlRewards.DataSource = rewards;
+                    }
+                    else
+                    {
+                        MessageBox.Show("No active rewards found.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        gridControlRewards.DataSource = null; // Clear previous data if no active rewards are found
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Database context is not initialized.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            catch (Exception ex)
+            {
+                // Log the exception or handle it as needed
+                MessageBox.Show($"Failed to load rewards due to an error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void btnCloseFrm_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+    }
+}

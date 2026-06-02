@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" baseProfile="basic" viewBox="0 0 48 48" width="240" height="240">
+  <linearGradient id="vpsJy9rGshBJ8esdDp7hTa" x1="4" x2="30" y1="12" y2="12" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#21ad64" />
+    <stop offset="1" stop-color="#088242" />
+  </linearGradient>
+  <path fill="url(#vpsJy9rGshBJ8esdDp7hTa)" d="M29,7H5C4.448,7,4,7.448,4,8v8c0,0.552,0.448,1,1,1h24c0.552,0,1-0.448,1-1V8C30,7.448,29.552,7,29,7z" />
+  <linearGradient id="vpsJy9rGshBJ8esdDp7hTb" x1="8" x2="34" y1="24" y2="24" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#f44f5a" />
+    <stop offset=".443" stop-color="#ee3d4a" />
+    <stop offset="1" stop-color="#e52030" />
+  </linearGradient>
+  <path fill="url(#vpsJy9rGshBJ8esdDp7hTb)" d="M33,19H9c-0.552,0-1,0.448-1,1v8c0,0.552,0.448,1,1,1h24c0.552,0,1-0.448,1-1v-8C34,19.448,33.552,19,33,19z" />
+  <linearGradient id="vpsJy9rGshBJ8esdDp7hTc" x1="4" x2="30" y1="36" y2="36" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#ffda1c" />
+    <stop offset="1" stop-color="#feb705" />
+  </linearGradient>
+  <path fill="url(#vpsJy9rGshBJ8esdDp7hTc)" d="M29,31H5c-0.552,0-1,0.448-1,1v8c0,0.552,0.448,1,1,1h24c0.552,0,1-0.448,1-1v-8C30,31.448,29.552,31,29,31z" />
+  <linearGradient id="vpsJy9rGshBJ8esdDp7hTd" x1="33" x2="45" y1="16.5" y2="16.5" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#5961c3" />
+    <stop offset=".002" stop-color="#5961c3" />
+    <stop offset=".437" stop-color="#4e55bb" />
+    <stop offset=".799" stop-color="#3a41ac" />
+  </linearGradient>
+  <path fill="url(#vpsJy9rGshBJ8esdDp7hTd)" d="M42.164,11H38V8l-5,4l5,4v-3h4.164C42.625,13,43,13.375,43,13.836v8.328C43,22.625,42.625,23,42.164,23H37v2h5.164C43.728,25,45,23.728,45,22.164v-8.328C45,12.272,43.728,11,42.164,11z" />
+  <rect width="4" height="4" x="7" y="10" fill="#107c42" />
+  <rect width="14" height="2" x="14" y="11" fill="#107c42" />
+  <rect width="4" height="4" x="11" y="22" fill="#b31523" />
+  <rect width="14" height="2" x="18" y="23" fill="#b31523" />
+  <rect width="4" height="4" x="7" y="34" fill="#eb8f0d" />
+  <rect width="14" height="2" x="14" y="35" fill="#eb8f0d" />
+</svg>

@@ -1,0 +1,126 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Pos.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="hasLogin" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="userId" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="isAdmin" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Admin</Value>
+    </Setting>
+    <Setting Name="BusinessLocation" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="CurrentUserFullName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Current User</Value>
+    </Setting>
+    <Setting Name="BusinessLocationName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Not Set</Value>
+    </Setting>
+    <Setting Name="DefaultCurrency" Type="System.String" Scope="User">
+      <Value Profile="(Default)">DA</Value>
+    </Setting>
+    <Setting Name="TechnicalId" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="EvantoToken" Type="System.String" Scope="User">
+      <Value Profile="(Default)">8pvaLH5DTakHdAFTH90EKD4zyPY4kDh8</Value>
+    </Setting>
+    <Setting Name="StripeSecretKey" Type="System.String" Scope="User">
+      <Value Profile="(Default)">sk_test_YOUR_STRIPE_TEST_KEY_HERE</Value>
+    </Setting>
+    <Setting Name="IsLockScreen" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="PrinterReciept" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="PrinterDocument" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Lang" Type="System.String" Scope="User">
+      <Value Profile="(Default)">en</Value>
+    </Setting>
+    <Setting Name="UserSession" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="DefaultCurrencyDirection" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="BusinessLocationId" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="SuperAdminPassword" Type="System.String" Scope="User">
+      <Value Profile="(Default)">123456</Value>
+    </Setting>
+    <Setting Name="CashRegisterId" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="UserRoleID" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="IsInUse" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="PurchaseCode" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="LastUsed" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="MachineId" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="AppName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Pos</Value>
+    </Setting>
+    <Setting Name="PosTopBanner" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="PosBottomBanner" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="PosCategoriesWithoutImgs" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="PosProductsWithoutImgs" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="PoslayoutControlGroupLatestOrders" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="PoslayoutControlGroupLatestCustomers" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="PoslayoutControlGroupLatestSuppliers" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="PoslayoutControlGroupSalesReturns" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="PoslayoutControlGroupHold" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="PoslayoutControlGroupUnpaidOrders" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="PosCategories" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="ExpiryDate" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="IsExpiryDate" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="SaleMode" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Grocery</Value>
+    </Setting>
+    <Setting Name="AppRibbon" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
