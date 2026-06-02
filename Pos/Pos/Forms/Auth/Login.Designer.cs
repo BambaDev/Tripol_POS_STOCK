@@ -631,7 +631,7 @@
             tabbedControlGroup1.Name = "tabbedControlGroup1";
             tabbedControlGroup1.OptionsTableLayoutItem.RowIndex = 3;
             tabbedControlGroup1.Padding = new DevExpress.XtraLayout.Utils.Padding(5, 5, 5, 5);
-            tabbedControlGroup1.SelectedTabPage = layoutControlGroup2;
+            tabbedControlGroup1.SelectedTabPage = layoutControlGroup11;
             tabbedControlGroup1.Size = new System.Drawing.Size(533, 359);
             tabbedControlGroup1.TabPages.AddRange(new DevExpress.XtraLayout.BaseLayoutItem[] { layoutControlGroup2, layoutControlGroup11 });
             // 

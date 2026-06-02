@@ -35,7 +35,9 @@
       "Bash(git stash *)",
       "Bash(git commit -m 'security: remove test API keys from codebase *)",
       "Bash(git rm *)",
-      "Bash(git commit --amend -m ' *)"
+      "Bash(git commit --amend -m ' *)",
+      "Bash(git commit -m 'feat: add SaveChanges validation for defense in depth *)",
+      "Bash(git commit *)"
     ]
   }
 }

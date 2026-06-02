@@ -249,6 +249,97 @@ public partial class AppDbContext : DbContext
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         => optionsBuilder.UseSqlServer("Server=.\\sqlexpress;Database= ezzipos;Trusted_Connection=True;TrustServerCertificate=true;");
 
+    /// <summary>
+    /// Override SaveChanges pour valider toutes les entités avant insertion/modification
+    /// Défense en profondeur - garantit validation même si Forms bypassé
+    /// </summary>
+    public override int SaveChanges()
+    {
+        ValidateEntitiesBeforeSave();
+        return base.SaveChanges();
+    }
+
+    /// <summary>
+    /// Override SaveChangesAsync pour validation
+    /// </summary>
+    public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
+    {
+        ValidateEntitiesBeforeSave();
+        return await base.SaveChangesAsync(cancellationToken);
+    }
+
+    /// <summary>
+    /// Valide toutes les entités trackées avant save
+    /// </summary>
+    private void ValidateEntitiesBeforeSave()
+    {
+        var entries = ChangeTracker.Entries()
+            .Where(e => e.State == EntityState.Added || e.State == EntityState.Modified)
+            .ToList();
+
+        foreach (var entry in entries)
+        {
+            // Validation Sale
+            if (entry.Entity is Sale sale)
+            {
+                var validation = Function.SaleValidator.ValidateSale(sale);
+                if (!validation.isValid)
+                {
+                    throw new InvalidOperationException($"Sale validation failed: {validation.errorMessage}");
+                }
+            }
+
+            // Validation Return
+            if (entry.Entity is Return returnEntity)
+            {
+                // Valider seulement si a SaleId et GrandTotal
+                if (returnEntity.SaleId.HasValue && returnEntity.GrandTotal.HasValue)
+                {
+                    var validation = Function.ReturnValidator.ValidateReturn(
+                        returnEntity.SaleId.Value,
+                        returnEntity.GrandTotal.Value,
+                        this);
+
+                    if (!validation.isValid)
+                    {
+                        throw new InvalidOperationException($"Return validation failed: {validation.errorMessage}");
+                    }
+                }
+            }
+
+            // Validation montants négatifs génériques
+            ValidateNoNegativeAmounts(entry);
+        }
+    }
+
+    /// <summary>
+    /// Vérifie qu'aucun montant négatif n'est présent (sauf pour Returns/Adjustments)
+    /// </summary>
+    private void ValidateNoNegativeAmounts(Microsoft.EntityFrameworkCore.ChangeTracking.EntityEntry entry)
+    {
+        // Skip pour entités autorisées à avoir montants négatifs
+        if (entry.Entity is Return || entry.Entity is Adjustment || entry.Entity is BankTransaction)
+            return;
+
+        var entity = entry.Entity;
+        var properties = entity.GetType().GetProperties();
+
+        foreach (var prop in properties)
+        {
+            // Chercher propriétés "Amount", "Price", "Total", etc.
+            if ((prop.Name.Contains("Amount") || prop.Name.Contains("Price") || prop.Name.Contains("Total"))
+                && prop.PropertyType == typeof(decimal))
+            {
+                var value = (decimal?)prop.GetValue(entity);
+                if (value.HasValue && value.Value < 0)
+                {
+                    throw new InvalidOperationException(
+                        $"{entity.GetType().Name}.{prop.Name} cannot be negative: {value.Value}");
+                }
+            }
+        }
+    }
+
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<ActivityLog>(entity =>
@@ -1016,84 +1107,4 @@ public partial class AppDbContext : DbContext
     }
 
     partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
-
-    /// <summary>
-    /// Override SaveChanges to add validation at database level
-    /// Provides defense in depth - validates even if Forms validation is bypassed
-    /// </summary>
-    public override int SaveChanges()
-    {
-        ValidateEntitiesBeforeSave();
-        return base.SaveChanges();
-    }
-
-    /// <summary>
-    /// Override SaveChangesAsync to add validation at database level
-    /// </summary>
-    public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
-    {
-        ValidateEntitiesBeforeSave();
-        return await base.SaveChangesAsync(cancellationToken);
-    }
-
-    /// <summary>
-    /// Validates all tracked entities before saving to database
-    /// Throws InvalidOperationException if validation fails
-    /// </summary>
-    private void ValidateEntitiesBeforeSave()
-    {
-        var entries = ChangeTracker.Entries()
-            .Where(e => e.State == EntityState.Added || e.State == EntityState.Modified);
-
-        foreach (var entry in entries)
-        {
-            // Validate Sale entities
-            if (entry.Entity is Sale sale)
-            {
-                var validation = Function.SaleValidator.ValidateSale(sale);
-                if (!validation.isValid)
-                {
-                    throw new InvalidOperationException(
-                        $"Sale validation failed: {validation.errorMessage}");
-                }
-            }
-
-            // Validate Return entities
-            if (entry.Entity is Return returnEntity)
-            {
-                var validation = Function.ReturnValidator.ValidateReturn(
-                    returnEntity.SaleId ?? 0,
-                    returnEntity.GrandTotal ?? 0,
-                    this);
-
-                if (!validation.isValid)
-                {
-                    throw new InvalidOperationException(
-                        $"Return validation failed: {validation.errorMessage}");
-                }
-            }
-
-            // Validate Customer email format
-            if (entry.Entity is Customer customer && !string.IsNullOrWhiteSpace(customer.Email))
-            {
-                var emailValidation = Function.InputSanitizer.ValidateEmail(customer.Email);
-                if (!emailValidation.isValid)
-                {
-                    throw new InvalidOperationException(
-                        $"Customer email validation failed: {emailValidation.errorMessage}");
-                }
-            }
-
-            // Validate Employee email format
-            if (entry.Entity is Employee employee && !string.IsNullOrWhiteSpace(employee.Email))
-            {
-                var emailValidation = Function.InputSanitizer.ValidateEmail(employee.Email);
-                if (!emailValidation.isValid)
-                {
-                    throw new InvalidOperationException(
-                        $"Employee email validation failed: {emailValidation.errorMessage}");
-                }
-            }
-        }
-    }
 }
