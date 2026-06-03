@@ -274,6 +274,19 @@ namespace Pos.Forms.Customer
         }
         private void btnSaveCustomer_Click(object sender, EventArgs e)
         {
+            // ===== PHASE 3E: INPUT VALIDATION =====
+            // Valider et sanitizer TOUS les inputs avant sauvegarde
+            if (!Function.FormValidationHelper.ValidateCustomerForm(
+                txtFirstName,
+                txtLastName,
+                txtEmail,
+                txtPhone,
+                txtAddress))
+            {
+                return; // Validation échouée, message déjà affiché
+            }
+            // ===== FIN VALIDATION =====
+
             string lang = Properties.Settings.Default.Lang;
 
             string pleaseSelectItem;

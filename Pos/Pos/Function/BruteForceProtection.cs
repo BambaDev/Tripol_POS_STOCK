@@ -11,6 +11,10 @@ namespace Pos.Function
         private const int LOCKOUT_DURATION_MINUTES = 15;
         private const int ATTEMPT_WINDOW_MINUTES = 30;
 
+        // ===== PHASE 3F: RATE LIMITING PROGRESSIF =====
+        // Délais progressifs pour ralentir brute force
+        private static readonly int[] PROGRESSIVE_DELAYS_SECONDS = { 0, 2, 5, 10, 20, 30 };
+
         /// <summary>
         /// Vérifie si un compte est verrouillé (trop de tentatives échouées)
         /// </summary>
@@ -171,6 +175,51 @@ namespace Pos.Function
                              && !a.IsSuccessful
                              && a.AttemptTime >= cutoffTime)
                     .Count();
+            }
+        }
+
+        /// <summary>
+        /// PHASE 3F: Calcule le délai progressif avant la prochaine tentative
+        /// Plus il y a de tentatives échouées, plus le délai est long
+        /// </summary>
+        /// <param name="username">Nom d'utilisateur</param>
+        /// <returns>Nombre de secondes à attendre avant la prochaine tentative</returns>
+        public static int GetProgressiveDelay(string username)
+        {
+            using (var context = new AppDbContext())
+            {
+                var cutoffTime = DateTime.Now.AddMinutes(-ATTEMPT_WINDOW_MINUTES);
+
+                // Compter les échecs récents
+                int failedCount = context.LoginAttempts
+                    .Where(a => a.Username.ToLower() == username.ToLower()
+                             && !a.IsSuccessful
+                             && a.AttemptTime >= cutoffTime)
+                    .Count();
+
+                // Retourner délai progressif
+                if (failedCount >= PROGRESSIVE_DELAYS_SECONDS.Length)
+                {
+                    return PROGRESSIVE_DELAYS_SECONDS[PROGRESSIVE_DELAYS_SECONDS.Length - 1];
+                }
+
+                return PROGRESSIVE_DELAYS_SECONDS[failedCount];
+            }
+        }
+
+        /// <summary>
+        /// PHASE 3F: Applique le délai progressif (bloque le thread)
+        /// À appeler AVANT de vérifier les credentials
+        /// </summary>
+        /// <param name="username">Nom d'utilisateur</param>
+        public static void ApplyProgressiveDelay(string username)
+        {
+            int delaySeconds = GetProgressiveDelay(username);
+
+            if (delaySeconds > 0)
+            {
+                // Bloquer le thread pour ralentir les attaques
+                Thread.Sleep(delaySeconds * 1000);
             }
         }
     }

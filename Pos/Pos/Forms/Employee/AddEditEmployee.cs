@@ -331,6 +331,16 @@ namespace Pos.Forms.Employee
 
         private void btnSave_Click(object sender, EventArgs e)
         {
+            // ===== PHASE 3E: INPUT VALIDATION =====
+            if (!Function.FormValidationHelper.ValidateEmployeeForm(
+                txtFullName,
+                txtEmail,
+                txtPhone))
+            {
+                return; // Validation échouée
+            }
+            // ===== FIN VALIDATION =====
+
             //SplashScreenManager.ShowForm(this, typeof(Wait), true, true, false);
             DateTime date;
             if (dxValidationProvider.Validate())

@@ -162,6 +162,12 @@ namespace Pos.Forms.Auth
             {
                 if (dxValidationProviderLogin.Validate())
                 {
+                    // ===== PHASE 3F: RATE LIMITING PROGRESSIF =====
+                    // Appliquer délai progressif AVANT vérification credentials
+                    // Ralentit les attaques brute force (0s, 2s, 5s, 10s, 20s, 30s)
+                    BruteForceProtection.ApplyProgressiveDelay(txtUsername.Text);
+                    // ===== FIN RATE LIMITING =====
+
                     // PROTECTION BRUTE FORCE: Vérifier si le compte est verrouillé
                     if (BruteForceProtection.IsAccountLocked(txtUsername.Text, out int remainingMinutes))
                     {

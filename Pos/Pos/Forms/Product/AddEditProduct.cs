@@ -306,6 +306,16 @@ namespace Pos.Forms.Product
 
         private void btnSaveProduct_Click(object sender, EventArgs e)
         {
+            // ===== PHASE 3E: INPUT VALIDATION =====
+            if (!Function.FormValidationHelper.ValidateProductForm(
+                txtProductName,
+                txtSKU,
+                txtNote))
+            {
+                return; // Validation échouée
+            }
+            // ===== FIN VALIDATION =====
+
             SplashScreenManager.ShowForm(this, typeof(Wait), true, true, false);
 
             if (dxValidationProviderProduct.Validate())
