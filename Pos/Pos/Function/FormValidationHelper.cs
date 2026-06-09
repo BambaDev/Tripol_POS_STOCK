@@ -252,12 +252,17 @@ namespace Pos.Function
         /// Valide tous les champs Employee requis
         /// </summary>
         public static bool ValidateEmployeeForm(
-            TextEdit txtFullName,
+            TextEdit txtFirstName,
+            TextEdit txtLastName,
             TextEdit txtEmail,
             TextEdit txtPhone)
         {
-            // Valider FullName (requis)
-            if (!ValidateAndSanitizeName(txtFullName, "Full Name", 100))
+            // Valider FirstName (requis)
+            if (!ValidateAndSanitizeName(txtFirstName, "First Name", 50))
+                return false;
+
+            // Valider LastName (requis)
+            if (!ValidateAndSanitizeName(txtLastName, "Last Name", 50))
                 return false;
 
             // Valider Email (optionnel mais si présent doit être valide)

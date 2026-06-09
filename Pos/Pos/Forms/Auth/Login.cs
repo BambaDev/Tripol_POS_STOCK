@@ -184,9 +184,6 @@ namespace Pos.Forms.Auth
                         return;
                     }
 
-                    // Appliquer un délai progressif basé sur les échecs précédents
-                    BruteForceProtection.ApplyProgressiveDelay(txtUsername.Text);
-
                     using (var context = new AppDbContext())
                     {
                         // Perform asynchronous database query

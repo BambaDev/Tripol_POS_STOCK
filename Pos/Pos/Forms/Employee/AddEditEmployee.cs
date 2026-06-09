@@ -333,9 +333,10 @@ namespace Pos.Forms.Employee
         {
             // ===== PHASE 3E: INPUT VALIDATION =====
             if (!Function.FormValidationHelper.ValidateEmployeeForm(
-                txtFullName,
+                txtFirstName,
+                txtLastName,
                 txtEmail,
-                txtPhone))
+                txtPhoneNumber))
             {
                 return; // Validation échouée
             }

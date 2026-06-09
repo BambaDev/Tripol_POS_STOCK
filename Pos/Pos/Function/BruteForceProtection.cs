@@ -83,29 +83,6 @@ namespace Pos.Function
             }
         }
 
-        /// <summary>
-        /// Calcule le délai progressif basé sur le nombre d'échecs
-        /// </summary>
-        public static void ApplyProgressiveDelay(string username)
-        {
-            using (var context = new AppDbContext())
-            {
-                var cutoffTime = DateTime.Now.AddMinutes(-ATTEMPT_WINDOW_MINUTES);
-
-                var recentFailedAttempts = context.LoginAttempts
-                    .Where(a => a.Username.ToLower() == username.ToLower()
-                             && !a.IsSuccessful
-                             && a.AttemptTime >= cutoffTime)
-                    .Count();
-
-                if (recentFailedAttempts > 0)
-                {
-                    // Délai progressif: 1s, 2s, 4s, 8s, 16s...
-                    int delaySeconds = (int)Math.Pow(2, Math.Min(recentFailedAttempts - 1, 5));
-                    Thread.Sleep(delaySeconds * 1000);
-                }
-            }
-        }
 
         /// <summary>
         /// Réinitialise le compteur d'échecs après une connexion réussie

@@ -308,9 +308,9 @@ namespace Pos.Forms.Product
         {
             // ===== PHASE 3E: INPUT VALIDATION =====
             if (!Function.FormValidationHelper.ValidateProductForm(
-                txtProductName,
-                txtSKU,
-                txtNote))
+                txtProduct,
+                txtSku,
+                txtDescription))
             {
                 return; // Validation échouée
             }
