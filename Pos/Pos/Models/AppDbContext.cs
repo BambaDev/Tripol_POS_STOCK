@@ -247,7 +247,11 @@ public partial class AppDbContext : DbContext
     public virtual DbSet<CardType> CardTypes { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        => optionsBuilder.UseSqlServer("Server=.\\sqlexpress;Database= ezzipos;Trusted_Connection=True;TrustServerCertificate=true;");
+        => optionsBuilder.UseSqlServer(
+            "Server=.\\sqlexpress;Database=ezzipos;Trusted_Connection=True;" +
+            "TrustServerCertificate=true;" +
+            "Encrypt=true;" +  // PHASE 3G: Force TLS/SSL encryption
+            "Connection Timeout=30;");
 
     /// <summary>
     /// Override SaveChanges pour valider toutes les entités avant insertion/modification
