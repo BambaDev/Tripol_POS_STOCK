@@ -3,76 +3,137 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
+using Pos.Function;
 
 namespace Pos.Models;
 
 [Table("User")]
 [Index("BusinessLocationId", Name = "IX_User_BusinessLocationId")]
 [Index("RoleId", Name = "IX_User_RoleId")]
+[SensitiveEntity(SensitivityLevel.Confidential, "System user account data")]
 public partial class User
 {
     [Key]
+    [NoEncryption("Primary key - technical field")]
     public int Id { get; set; }
 
     [StringLength(250)]
+    [SensitiveData(SensitivityLevel.Confidential, DataCategory.PII,
+        RequiresEncryption = true,
+        Description = "User first name")]
     public string FirstName { get; set; }
 
     [StringLength(250)]
+    [SensitiveData(SensitivityLevel.Confidential, DataCategory.PII,
+        RequiresEncryption = true,
+        Description = "User last name")]
     public string LastName { get; set; }
 
     [StringLength(250)]
+    [SensitiveData(SensitivityLevel.Confidential, DataCategory.PII,
+        RequiresEncryption = true,
+        Description = "User full name")]
     public string FullName { get; set; }
 
     [StringLength(250)]
+    [SensitiveData(SensitivityLevel.Internal, DataCategory.Security,
+        Description = "Login username - needed for authentication")]
     public string UserLogin { get; set; }
 
     [StringLength(250)]
+    [SensitiveData(SensitivityLevel.Confidential, DataCategory.Contact,
+        RequiresEncryption = true,
+        Description = "User email address",
+        LegalBasis = "Contract")]
     public string Email { get; set; }
 
     [StringLength(250)]
+    [SensitiveData(SensitivityLevel.Confidential, DataCategory.Contact,
+        RequiresEncryption = true,
+        Description = "User phone number",
+        LegalBasis = "Contract")]
     public string Phone { get; set; }
 
     [StringLength(250)]
+    [NoEncryption("Already hashed with BCrypt via PasswordHelper")]
+    [SensitiveData(SensitivityLevel.Classified, DataCategory.Security,
+        LogAccessAttempts = true,
+        MaskInAuditTrail = true,
+        SubjectToErasure = false,
+        Description = "Hashed password (BCrypt)")]
     public string Password { get; set; }
 
     [StringLength(150)]
+    [SensitiveData(SensitivityLevel.Classified, DataCategory.Security,
+        RequiresEncryption = true,
+        LogAccessAttempts = true,
+        Description = "PIN code 1")]
     public string PinOne { get; set; }
 
     [StringLength(150)]
+    [SensitiveData(SensitivityLevel.Classified, DataCategory.Security,
+        RequiresEncryption = true,
+        LogAccessAttempts = true,
+        Description = "PIN code 2")]
     public string PinTwo { get; set; }
 
     [StringLength(150)]
+    [SensitiveData(SensitivityLevel.Classified, DataCategory.Security,
+        RequiresEncryption = true,
+        LogAccessAttempts = true,
+        Description = "PIN code 3")]
     public string PinThree { get; set; }
 
     [StringLength(150)]
+    [SensitiveData(SensitivityLevel.Classified, DataCategory.Security,
+        RequiresEncryption = true,
+        LogAccessAttempts = true,
+        Description = "PIN code 4")]
     public string PinFour { get; set; }
 
     [Column(TypeName = "image")]
+    [SensitiveData(SensitivityLevel.Restricted, DataCategory.Biometric,
+        RequiresEncryption = true,
+        LogAccessAttempts = true,
+        Description = "User photo - Article 9 GDPR biometric data",
+        LegalBasis = "Explicit Consent",
+        SubjectToErasure = true)]
     public byte[] Image { get; set; }
 
     [StringLength(250)]
     public string Status { get; set; }
 
     [StringLength(250)]
+    [SensitiveData(SensitivityLevel.Confidential, DataCategory.PII,
+        RequiresEncryption = true,
+        Description = "User gender")]
     public string Gender { get; set; }
 
     [StringLength(250)]
+    [NoEncryption("Role indicator - protected by Mass Assignment Protection")]
     public string IsAdmin { get; set; }
 
+    [NoEncryption("Foreign key reference")]
     public int? CountryId { get; set; }
 
+    [NoEncryption("Foreign key reference")]
     public int? StateId { get; set; }
 
+    [NoEncryption("Foreign key reference")]
     public int? CityId { get; set; }
 
+    [NoEncryption("Foreign key reference")]
     public int? BusinessLocationId { get; set; }
 
+    [NoEncryption("Foreign key reference - protected by Mass Assignment Protection")]
     public int? RoleId { get; set; }
 
     [Column(TypeName = "datetime")]
+    [NoEncryption("Technical timestamp")]
     public DateTime? CreatedAt { get; set; }
 
     [Column(TypeName = "datetime")]
+    [NoEncryption("Technical timestamp")]
     public DateTime? UpdatedAt { get; set; }
 
     [InverseProperty("User")]

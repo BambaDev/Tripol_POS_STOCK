@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
+using Pos.Function;
 
 namespace Pos.Models;
 
@@ -10,36 +11,78 @@ namespace Pos.Models;
 [Index("PriceGroup", Name = "IX_Customer_PriceGroup")]
 [Index("TierLevelId", Name = "IX_Customer_TierLevelId")]
 [Index("UserId", Name = "IX_Customer_UserID")]
+[SensitiveEntity(SensitivityLevel.Confidential, "Customer personal and loyalty data")]
 public partial class Customer
 {
     [Key]
+    [NoEncryption("Primary key - technical field")]
     public int Id { get; set; }
 
     [StringLength(250)]
+    [SensitiveData(SensitivityLevel.Confidential, DataCategory.PII,
+        RequiresEncryption = true,
+        Description = "Customer first name",
+        LegalBasis = "Consent",
+        RetentionDays = 2555)] // 7 years for tax purposes
     public string FirstName { get; set; }
 
     [StringLength(250)]
+    [SensitiveData(SensitivityLevel.Confidential, DataCategory.PII,
+        RequiresEncryption = true,
+        Description = "Customer last name",
+        LegalBasis = "Consent",
+        RetentionDays = 2555)]
     public string LastName { get; set; }
 
     [StringLength(250)]
+    [SensitiveData(SensitivityLevel.Confidential, DataCategory.PII,
+        RequiresEncryption = true,
+        Description = "Customer full name",
+        LegalBasis = "Consent",
+        RetentionDays = 2555)]
     public string FullName { get; set; }
 
     [StringLength(250)]
+    [SensitiveData(SensitivityLevel.Confidential, DataCategory.Contact,
+        RequiresEncryption = true,
+        Description = "Customer email address",
+        LegalBasis = "Consent",
+        RetentionDays = 2555)]
     public string Email { get; set; }
 
     [StringLength(250)]
+    [SensitiveData(SensitivityLevel.Confidential, DataCategory.Contact,
+        RequiresEncryption = true,
+        Description = "Customer phone number",
+        LegalBasis = "Consent",
+        RetentionDays = 2555)]
     public string Phone { get; set; }
 
     [Column(TypeName = "image")]
+    [SensitiveData(SensitivityLevel.Restricted, DataCategory.Biometric,
+        RequiresEncryption = true,
+        Description = "Customer photo - Article 9 GDPR biometric data",
+        LegalBasis = "Explicit Consent",
+        SubjectToErasure = true)]
     public byte[] Image { get; set; }
 
     [StringLength(250)]
+    [SensitiveData(SensitivityLevel.Confidential, DataCategory.PII,
+        RequiresEncryption = true,
+        Description = "Customer gender",
+        LegalBasis = "Consent")]
     public string Gender { get; set; }
 
     [StringLength(250)]
+    [NoEncryption("Status field - not PII")]
     public string Status { get; set; }
 
     [Column(TypeName = "text")]
+    [SensitiveData(SensitivityLevel.Confidential, DataCategory.Contact,
+        RequiresEncryption = true,
+        Description = "Customer address",
+        LegalBasis = "Consent",
+        RetentionDays = 2555)]
     public string Address { get; set; }
 
     [Column(TypeName = "decimal(18, 2)")]
