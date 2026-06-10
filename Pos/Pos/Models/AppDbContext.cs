@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
+using Pos.Function;
 
 namespace Pos.Models;
 
@@ -346,6 +347,18 @@ public partial class AppDbContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        // ===== PHASE 4B RGPD: AUTOMATIC FIELD ENCRYPTION =====
+        // Scanne tous les modèles pour [SensitiveData(RequiresEncryption=true)]
+        // et applique automatiquement les ValueConverters d'encryption
+        modelBuilder.ApplyGdprEncryption();
+
+        // Générer rapport d'audit GDPR au démarrage (debug only)
+        #if DEBUG
+        string auditReport = Function.GdprModelBuilder.GenerateAuditReport(modelBuilder);
+        System.Diagnostics.Debug.WriteLine(auditReport);
+        #endif
+        // ===== FIN PHASE 4B =====
+
         modelBuilder.Entity<ActivityLog>(entity =>
         {
             entity.HasOne(d => d.Customer).WithMany(p => p.ActivityLogs).HasConstraintName("FK_ActivityLog_Customer");
